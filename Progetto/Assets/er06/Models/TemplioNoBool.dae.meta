@@ -1,26 +1,9 @@
 fileFormatVersion: 2
-guid: 82b545eae0f23c44c85e6167ae36f047
+guid: c0b609710c37149428030ccb310871e7
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 8291949489392313356
-    second: Armature|Armature|Armature|VRTK_BasicHandArmatureAction
-  - first:
-      74: 8214621315175170227
-    second: Armature|Armature|Armature|VRTK_BasicHandArmatureAction.001
-  - first:
-      74: 8303832016088272705
-    second: Armature|Armature|Armature|VRTK_BasicHandArmatureAction.002
-  - first:
-      74: -5994536386029320453
-    second: Armature|Armature|Armature|VRTK_BasicHandArmatureAction.003
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glove Material
-    second: {fileID: 2100000, guid: 6be6dd642d3ab0d4c8ad240443898c97, type: 2}
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -54,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
