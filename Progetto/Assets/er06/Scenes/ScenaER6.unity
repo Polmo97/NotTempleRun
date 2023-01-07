@@ -984,6 +984,31 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac8c419e8c896b4469e9b1a54f609a54, type: 2}
+    - target: {fileID: -1786372007645904224, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1786372007645904224, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1786372007645904224, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1786372007645904224, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1786372007645904224, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: -858693554722928911, guid: 89bb574e16c4b394888b1273da4ab6d1,
         type: 3}
       propertyPath: m_StaticEditorFlags
