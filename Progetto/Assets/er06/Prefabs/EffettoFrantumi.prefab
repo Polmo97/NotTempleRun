@@ -25,8 +25,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3591455063085996957}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.476611, y: -0.5693822, z: -1.1332822}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50,7 +50,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -285,7 +285,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.3
+      scalar: 0.1
       minScalar: 0.1
       maxCurve:
         serializedVersion: 2
@@ -4861,11 +4861,10 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 6653870427934676780, guid: fa6ea1a4b4e42674a805ed10f811f8c0, type: 3}
-  m_Mesh1: {fileID: 7897357639016447417, guid: fa6ea1a4b4e42674a805ed10f811f8c0, type: 3}
-  m_Mesh2: {fileID: -4827982377900391540, guid: fa6ea1a4b4e42674a805ed10f811f8c0,
-    type: 3}
-  m_Mesh3: {fileID: -4184601396232894508, guid: fa6ea1a4b4e42674a805ed10f811f8c0,
+  m_Mesh: {fileID: -4184601396232894508, guid: 25f6a2166b8b1df48b9e3a34129ca7e2, type: 3}
+  m_Mesh1: {fileID: 6653870427934676780, guid: 25f6a2166b8b1df48b9e3a34129ca7e2, type: 3}
+  m_Mesh2: {fileID: 7897357639016447417, guid: 25f6a2166b8b1df48b9e3a34129ca7e2, type: 3}
+  m_Mesh3: {fileID: -4827982377900391540, guid: 25f6a2166b8b1df48b9e3a34129ca7e2,
     type: 3}
   m_MeshWeighting: 1
   m_MeshWeighting1: 1
