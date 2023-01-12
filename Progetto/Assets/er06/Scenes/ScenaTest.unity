@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 2800000, guid: 0c8554c683c637c4ebd17d0097f02356, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.029522056, g: 0.017865295, b: 0.019957056, a: 1}
+  m_IndirectSpecularColor: {r: 0.02978895, g: 0.017727647, b: 0.01999595, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1064,6 +1064,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1952283029806412619, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3511934003724585721, guid: 89bb574e16c4b394888b1273da4ab6d1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1151,6 +1156,58 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7111322142149797224, guid: 89bb574e16c4b394888b1273da4ab6d1, type: 3}
+--- !u!1 &696307792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6642385350171215046, guid: 89bb574e16c4b394888b1273da4ab6d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 696307789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &696307793
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696307792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64d66d8f0286f684abe3b7b19a96c140, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!1 &696307794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8089897082976367435, guid: 89bb574e16c4b394888b1273da4ab6d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 696307789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &696307795
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696307794}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a15921d6f9371148bbe3bc5000310f4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &704633230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,7 +5660,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001842425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
