@@ -27,6 +27,7 @@
     "io.extendreality.tilia.interactions.pointerinteractors.unity": "2.1.21",
     "io.extendreality.tilia.interactions.snapzone.unity": "2.1.17",
     "io.extendreality.tilia.interactions.spatialbuttons.unity": "2.2.0",
+    "io.extendreality.tilia.locomotors.teleporter.unity": "2.1.0",
     "io.extendreality.tilia.output.interactorhaptics.unity": "2.1.2",
     "io.extendreality.tilia.visuals.basichand.unity": "2.3.6",
     "io.extendreality.tilia.visuals.interactablehighlighter.unity": "2.1.2",
