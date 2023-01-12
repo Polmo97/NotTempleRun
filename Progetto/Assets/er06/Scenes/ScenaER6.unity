@@ -1054,6 +1054,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac8c419e8c896b4469e9b1a54f609a54, type: 2}
+    - target: {fileID: 1092226418502082393, guid: 89bb574e16c4b394888b1273da4ab6d1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00462
+      objectReference: {fileID: 0}
     - target: {fileID: 1126595241962772939, guid: 89bb574e16c4b394888b1273da4ab6d1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2239,6 +2244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraRigs.TrackedAlias
       objectReference: {fileID: 0}
+    - target: {fileID: 1540271613746846, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2732,6 +2741,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5030965950143398589}
     m_Modifications:
+    - target: {fileID: 1431058186026970, guid: b83324a2600e5394fa8c51c8861a8e6a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1469220889570388, guid: b83324a2600e5394fa8c51c8861a8e6a, type: 3}
       propertyPath: m_Name
       value: Right.BasicHand
@@ -3604,6 +3617,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5858731672555647122, guid: b83324a2600e5394fa8c51c8861a8e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5895435559223896856, guid: b83324a2600e5394fa8c51c8861a8e6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4012,7 +4030,7 @@ PrefabInstance:
     - target: {fileID: 8816320287197461747, guid: b83324a2600e5394fa8c51c8861a8e6a,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9120182949908627463, guid: b83324a2600e5394fa8c51c8861a8e6a,
         type: 3}
@@ -4098,6 +4116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1449918730}
     m_Modifications:
+    - target: {fileID: 1431058186026970, guid: b83324a2600e5394fa8c51c8861a8e6a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1469220889570388, guid: b83324a2600e5394fa8c51c8861a8e6a, type: 3}
       propertyPath: m_Name
       value: Left.BasicHand
@@ -4865,6 +4887,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.022002952
       objectReference: {fileID: 0}
+    - target: {fileID: 5858731672555647122, guid: b83324a2600e5394fa8c51c8861a8e6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5895435559223896856, guid: b83324a2600e5394fa8c51c8861a8e6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5577,7 +5604,7 @@ GameObject:
   - component: {fileID: 2001842426}
   - component: {fileID: 2001842430}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: TriggerFreccia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5603,7 +5630,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001842425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5655,7 +5682,7 @@ Transform:
   m_GameObject: {fileID: 2001842425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.778, z: -0.265}
-  m_LocalScale: {x: 3, y: 0.33, z: 0.1}
+  m_LocalScale: {x: 4.1391, y: 1.1651641, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
