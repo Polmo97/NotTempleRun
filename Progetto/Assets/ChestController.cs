@@ -13,7 +13,8 @@ namespace er06 {
         {
             if (other.gameObject.CompareTag("Key"))
             {
-                Debug.Log("SUDSSAUAH");
+                Debug.Log("SUDSSAUAH" +
+                    "");
                 OnChestOpen.Invoke();
 
             }
