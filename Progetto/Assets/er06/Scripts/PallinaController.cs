@@ -29,7 +29,7 @@ public class PallinaController : MonoBehaviour
         }
         if (other.gameObject.tag == "GameController")
         {
-            constantForce.force = new Vector3(-2f, 10.5f, 0);
+            constantForce.force = new Vector3(-3f, 11f, 0);
         }
     }
 
