@@ -1,0 +1,498 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 Tilia.Interactions.SnapZone.SnapZoneFacade Tilia.Interactions.SnapZone.ActivationValidator::get_Facade()
+extern void ActivationValidator_get_Facade_m6272F6F91E0D663DBBDDB07D8DD7B2B460CA2AA6 (void);
+// 0x00000002 System.Void Tilia.Interactions.SnapZone.ActivationValidator::set_Facade(Tilia.Interactions.SnapZone.SnapZoneFacade)
+extern void ActivationValidator_set_Facade_m479CF5E203F9C79E6F30260C2518639E5BDDCD11 (void);
+// 0x00000003 System.Boolean Tilia.Interactions.SnapZone.ActivationValidator::get_IsActivated()
+extern void ActivationValidator_get_IsActivated_m3EF201B8855301937DAFB3586A57685CA2DCD58A (void);
+// 0x00000004 System.Void Tilia.Interactions.SnapZone.ActivationValidator::set_IsActivated(System.Boolean)
+extern void ActivationValidator_set_IsActivated_m615C9281F9BC090E00956CCC942FFF087246E423 (void);
+// 0x00000005 System.Void Tilia.Interactions.SnapZone.ActivationValidator::Activate(UnityEngine.GameObject)
+extern void ActivationValidator_Activate_m1CB721FD4C21A4D2BBC010A4AB9A5BB1363E692D (void);
+// 0x00000006 System.Void Tilia.Interactions.SnapZone.ActivationValidator::Deactivate(UnityEngine.GameObject)
+extern void ActivationValidator_Deactivate_mB50B9F8F7A77001FA20640CC2A5E6CD2B763FE98 (void);
+// 0x00000007 System.Void Tilia.Interactions.SnapZone.ActivationValidator::ClearInvalidSnapZoneCollisions(Tilia.Interactions.Interactables.Interactables.InteractableFacade,System.Collections.Generic.List`1<UnityEngine.GameObject>&)
+extern void ActivationValidator_ClearInvalidSnapZoneCollisions_mB6284D2215BE10C2D43076091E9CEB6513785E8B (void);
+// 0x00000008 System.Void Tilia.Interactions.SnapZone.ActivationValidator::AttemptReactivation(UnityEngine.GameObject,Tilia.Interactions.SnapZone.SnapZoneActivator)
+extern void ActivationValidator_AttemptReactivation_mDBBE68C0BED4A3E133D474C48FE2AB9BE6D1383C (void);
+// 0x00000009 System.Void Tilia.Interactions.SnapZone.ActivationValidator::CancelAttemptReactivation(UnityEngine.GameObject,Tilia.Interactions.SnapZone.SnapZoneActivator)
+extern void ActivationValidator_CancelAttemptReactivation_m8EB3895CF853AF678939707814DC9070EA2650B3 (void);
+// 0x0000000A System.Void Tilia.Interactions.SnapZone.ActivationValidator::TrySetInteractableFacade(UnityEngine.GameObject)
+extern void ActivationValidator_TrySetInteractableFacade_m78F8466DB25FCE24306EA59CA6431553C6A4E999 (void);
+// 0x0000000B Tilia.Interactions.Interactables.Interactables.InteractableFacade Tilia.Interactions.SnapZone.ActivationValidator::TryGetInteractable(UnityEngine.GameObject)
+extern void ActivationValidator_TryGetInteractable_m64A32181B01AAF1A267DDE64B80712A862E73CFB (void);
+// 0x0000000C System.Void Tilia.Interactions.SnapZone.ActivationValidator::.ctor()
+extern void ActivationValidator__ctor_m4DE6A0FA2E69F191AA9DFC8713331CA95F573912 (void);
+// 0x0000000D System.Void Tilia.Interactions.SnapZone.ActivationValidator/UnityEvent::.ctor()
+extern void UnityEvent__ctor_mEB28659214CF89D9119A8392B5D82957A84605B0 (void);
+// 0x0000000E System.Void Tilia.Interactions.SnapZone.ActivationValidator/ListenerKey::.ctor(UnityEngine.GameObject,Tilia.Interactions.SnapZone.SnapZoneActivator)
+extern void ListenerKey__ctor_mFB06D0837B38AE65BAB3CB306E38EE5B0B623A5D (void);
+// 0x0000000F System.Void Tilia.Interactions.SnapZone.ActivationValidator/<>c__DisplayClass16_0::.ctor()
+extern void U3CU3Ec__DisplayClass16_0__ctor_mF3649BD4A7F75C3A491425BA67EDFE57B4A5B6D5 (void);
+// 0x00000010 System.Void Tilia.Interactions.SnapZone.ActivationValidator/<>c__DisplayClass16_0::<Activate>b__0(UnityEngine.GameObject)
+extern void U3CU3Ec__DisplayClass16_0_U3CActivateU3Eb__0_m06D81FE68EDB64451F2CE35BA2D90F0E3E39EC45 (void);
+// 0x00000011 System.Void Tilia.Interactions.SnapZone.ActivationValidator/<>c__DisplayClass16_0::<Activate>b__1(UnityEngine.GameObject)
+extern void U3CU3Ec__DisplayClass16_0_U3CActivateU3Eb__1_mD59CBB76148298E12606CB71EA7E495E15A8F3DD (void);
+// 0x00000012 Tilia.Interactions.SnapZone.SnapZoneFacade Tilia.Interactions.SnapZone.SnapZoneActivator::get_Facade()
+extern void SnapZoneActivator_get_Facade_m43C43A35484A98FC6D3631CA8CA62B0B4A46E16E (void);
+// 0x00000013 System.Void Tilia.Interactions.SnapZone.SnapZoneActivator::set_Facade(Tilia.Interactions.SnapZone.SnapZoneFacade)
+extern void SnapZoneActivator_set_Facade_m330135301D757679455EE4D4CFF27B4813718A05 (void);
+// 0x00000014 Zinnia.Tracking.Collision.CollisionTracker Tilia.Interactions.SnapZone.SnapZoneActivator::get_CollisionTracker()
+extern void SnapZoneActivator_get_CollisionTracker_mDE779B0F50238AEC5AD5C621D2C5D43F7E97D315 (void);
+// 0x00000015 System.Void Tilia.Interactions.SnapZone.SnapZoneActivator::set_CollisionTracker(Zinnia.Tracking.Collision.CollisionTracker)
+extern void SnapZoneActivator_set_CollisionTracker_mD71F52B9DF0632DFC9215ACABE9F49B9E37F212C (void);
+// 0x00000016 UnityEngine.Collider Tilia.Interactions.SnapZone.SnapZoneActivator::get_Collider()
+extern void SnapZoneActivator_get_Collider_mE13A9336A1313EC78AF5F58FB3E36D5DE1C4F59D (void);
+// 0x00000017 System.Void Tilia.Interactions.SnapZone.SnapZoneActivator::set_Collider(UnityEngine.Collider)
+extern void SnapZoneActivator_set_Collider_m344F952A0CAE5393605C074BFD5222005BC13179 (void);
+// 0x00000018 System.Void Tilia.Interactions.SnapZone.SnapZoneActivator::.ctor()
+extern void SnapZoneActivator__ctor_mA97515ED7E212D2417CFD1D9D86ED4400450B382 (void);
+// 0x00000019 Tilia.Interactions.SnapZone.SnapZoneFacade Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_Facade()
+extern void SnapZoneConfigurator_get_Facade_m9C12CA1BAFEAED1F19F135FFBD174807BAF3AE95 (void);
+// 0x0000001A System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_Facade(Tilia.Interactions.SnapZone.SnapZoneFacade)
+extern void SnapZoneConfigurator_set_Facade_mB002F95CFE9594ADEEB9CA1DA8401811186B5B81 (void);
+// 0x0000001B Zinnia.Rule.Collection.RuleContainerObservableList Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_ValidCollisionRules()
+extern void SnapZoneConfigurator_get_ValidCollisionRules_m041171AEE8621680FC005A52B1AB4EDAD146E2EB (void);
+// 0x0000001C System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_ValidCollisionRules(Zinnia.Rule.Collection.RuleContainerObservableList)
+extern void SnapZoneConfigurator_set_ValidCollisionRules_m0AE2362F2BA7B5FA3C4ABE95E45AA850BD4EB4CC (void);
+// 0x0000001D Zinnia.Rule.AllRule Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_AllValidRules()
+extern void SnapZoneConfigurator_get_AllValidRules_m360AC25B1EDCC16D9FC7E8124D48F13DA024EB48 (void);
+// 0x0000001E System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_AllValidRules(Zinnia.Rule.AllRule)
+extern void SnapZoneConfigurator_set_AllValidRules_mFAD43A7BBFA1616273991152DE35808369C17A51 (void);
+// 0x0000001F Tilia.Interactions.Interactables.Interactables.Grab.InteractableGrabStateEmitter Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_GrabStateEmitter()
+extern void SnapZoneConfigurator_get_GrabStateEmitter_m99DDCFB609AD9826B7AADCD36EB73382C539A7CC (void);
+// 0x00000020 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_GrabStateEmitter(Tilia.Interactions.Interactables.Interactables.Grab.InteractableGrabStateEmitter)
+extern void SnapZoneConfigurator_set_GrabStateEmitter_m862FA33AABC6BE58F4F085C7573CDD3C22473C6E (void);
+// 0x00000021 Tilia.Interactions.SnapZone.SnapZoneActivator Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_ActivationArea()
+extern void SnapZoneConfigurator_get_ActivationArea_m1A246F99EE94AAEDCB60611F3C7B44CDFE317B2A (void);
+// 0x00000022 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_ActivationArea(Tilia.Interactions.SnapZone.SnapZoneActivator)
+extern void SnapZoneConfigurator_set_ActivationArea_mD9F38B0733652D62B86E3A89D0C4F0D2B323EF91 (void);
+// 0x00000023 Tilia.Interactions.SnapZone.ActivationValidator Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_ActivationValidator()
+extern void SnapZoneConfigurator_get_ActivationValidator_m14A5DF77AB8907B2AE92F99D9459D26C490B9A5B (void);
+// 0x00000024 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_ActivationValidator(Tilia.Interactions.SnapZone.ActivationValidator)
+extern void SnapZoneConfigurator_set_ActivationValidator_m88B47BCED75556BCA6BB1A115B785793F4748A8A (void);
+// 0x00000025 Zinnia.Tracking.Modification.TransformPropertyApplier Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_PropertyApplier()
+extern void SnapZoneConfigurator_get_PropertyApplier_m8F3AE9E58D27CB1D1A14DAFAA3A294EA999A49CC (void);
+// 0x00000026 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_PropertyApplier(Zinnia.Tracking.Modification.TransformPropertyApplier)
+extern void SnapZoneConfigurator_set_PropertyApplier_mEA5BC06028AEF4CBB2115F1502D8966046E3CEBE (void);
+// 0x00000027 Zinnia.Data.Collection.List.GameObjectObservableList Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_CollidingObjectsList()
+extern void SnapZoneConfigurator_get_CollidingObjectsList_m37459B81EA6DFA30F1E81D078C15154FD23E381F (void);
+// 0x00000028 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_CollidingObjectsList(Zinnia.Data.Collection.List.GameObjectObservableList)
+extern void SnapZoneConfigurator_set_CollidingObjectsList_m2746D95AF89AA75962F6F4786466A68B6448600D (void);
+// 0x00000029 Zinnia.Data.Collection.List.GameObjectObservableList Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_ValidSnappableInteractablesList()
+extern void SnapZoneConfigurator_get_ValidSnappableInteractablesList_mEE0EE1D483DA3BF2F4BDCD8024D412E1A3038301 (void);
+// 0x0000002A System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_ValidSnappableInteractablesList(Zinnia.Data.Collection.List.GameObjectObservableList)
+extern void SnapZoneConfigurator_set_ValidSnappableInteractablesList_m70BF029598FF6B12325F3AAA40A36A46F36E3554 (void);
+// 0x0000002B Zinnia.Data.Collection.List.GameObjectObservableList Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_SnappedInteractablesList()
+extern void SnapZoneConfigurator_get_SnappedInteractablesList_mD95E69C6B30D6305A5E0173E31F9AD440B46622C (void);
+// 0x0000002C System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_SnappedInteractablesList(Zinnia.Data.Collection.List.GameObjectObservableList)
+extern void SnapZoneConfigurator_set_SnappedInteractablesList_m194E499AFBEB8F2262F2C7F50F27D3B9E94CADCD (void);
+// 0x0000002D Zinnia.Event.Proxy.GameObjectEventProxyEmitter Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_SnapDroppedInteractableProcess()
+extern void SnapZoneConfigurator_get_SnapDroppedInteractableProcess_mEA6DA456A6E658E07FFF1C86A23A19BF52C2CD08 (void);
+// 0x0000002E System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_SnapDroppedInteractableProcess(Zinnia.Event.Proxy.GameObjectEventProxyEmitter)
+extern void SnapZoneConfigurator_set_SnapDroppedInteractableProcess_mD3FA2959480CDFFEFDA4E72B4CBBF6226395EFCE (void);
+// 0x0000002F Zinnia.Event.Proxy.GameObjectEventProxyEmitter Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_ForceUnsnapInteractableProcess()
+extern void SnapZoneConfigurator_get_ForceUnsnapInteractableProcess_m6A60791DCE354B63076B0B6065E11941BA1F4672 (void);
+// 0x00000030 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_ForceUnsnapInteractableProcess(Zinnia.Event.Proxy.GameObjectEventProxyEmitter)
+extern void SnapZoneConfigurator_set_ForceUnsnapInteractableProcess_mED7CD9761AF1B2B14A7713A47DEA3A299BF340BA (void);
+// 0x00000031 UnityEngine.GameObject Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_DestinationLocation()
+extern void SnapZoneConfigurator_get_DestinationLocation_mDE9B183A5E9CC85294A84265489BAD415ADEA5F8 (void);
+// 0x00000032 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_DestinationLocation(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_set_DestinationLocation_mFC9AAC39A3F8E7B295F248DD610F1E45AA43F0EA (void);
+// 0x00000033 UnityEngine.GameObject Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_AutoSnapLogicContainer()
+extern void SnapZoneConfigurator_get_AutoSnapLogicContainer_mF2FB964EFD1709A71EDF486FD3796D76FA1CC755 (void);
+// 0x00000034 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_AutoSnapLogicContainer(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_set_AutoSnapLogicContainer_m9FF972DB814174C402BEE215EA070074EF9E55DB (void);
+// 0x00000035 System.Single Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_InitialTransitionDuration()
+extern void SnapZoneConfigurator_get_InitialTransitionDuration_m2BB4F7BA09D5F605857F66DC163F31A68D73DA93 (void);
+// 0x00000036 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::set_InitialTransitionDuration(System.Single)
+extern void SnapZoneConfigurator_set_InitialTransitionDuration_mB1D0B288059809F63C4CC30D1029F8A86EBB2F00 (void);
+// 0x00000037 Zinnia.Data.Type.HeapAllocationFreeReadOnlyList`1<UnityEngine.GameObject> Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_SnappableInteractables()
+extern void SnapZoneConfigurator_get_SnappableInteractables_mE8C0245E3430875089B8DE53EBFC8406AC80D0FB (void);
+// 0x00000038 UnityEngine.GameObject Tilia.Interactions.SnapZone.SnapZoneConfigurator::get_SnappedInteractable()
+extern void SnapZoneConfigurator_get_SnappedInteractable_m3732947476CD64BD466E7FB4589A7BBD1DBF46CF (void);
+// 0x00000039 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::PrepareKinematicStateChange(UnityEngine.Rigidbody)
+extern void SnapZoneConfigurator_PrepareKinematicStateChange_m47713300881A818EEF0D623359FAD60B8CEA565A (void);
+// 0x0000003A System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::PrepareKinematicStateChange(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void SnapZoneConfigurator_PrepareKinematicStateChange_mC6DD3B378E5203B8D9FEE4186AB68E4744FBBB83 (void);
+// 0x0000003B System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::PrepareKinematicStateChange(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_PrepareKinematicStateChange_m6A8C16094C9BD07636CB6A3D963C6517415962D5 (void);
+// 0x0000003C System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::Snap(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_Snap_mC478BB3E8C17A5FCA7EBF137D42421659A55EBE2 (void);
+// 0x0000003D System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::Unsnap()
+extern void SnapZoneConfigurator_Unsnap_m341B9845891217D311DC17CCAABA623F6C5B4A97 (void);
+// 0x0000003E System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitEntered(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitEntered_m582A2BCE3B03CEDAEA665FC54FA2A2496BC5B931 (void);
+// 0x0000003F System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitExited(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitExited_mD4ABC434987A3CD680E0F90D5B2D1C4D3EECE9B2 (void);
+// 0x00000040 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitActivated(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitActivated_m5319CC4F30682BC4827DBA46C052B7116D8FFB08 (void);
+// 0x00000041 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitDeactivated(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitDeactivated_m55B70771115B8F5EC6E899EA6048F7D8CEA9F02B (void);
+// 0x00000042 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitSnapped(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitSnapped_mEAE9FDCE1608616F74944ECAE846D11E2BF9F2F1 (void);
+// 0x00000043 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::EmitUnsnapped(UnityEngine.GameObject)
+extern void SnapZoneConfigurator_EmitUnsnapped_m03BE9E612BE5844AE97783D39117F919EF67BB68 (void);
+// 0x00000044 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::ConfigureValidityRules()
+extern void SnapZoneConfigurator_ConfigureValidityRules_mA355A8BB725A294557ABE4065290CF5B64EBFEB1 (void);
+// 0x00000045 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::ConfigurePropertyApplier()
+extern void SnapZoneConfigurator_ConfigurePropertyApplier_m00D7C718D6F25CDC09DDBC5C07387B33D452FC2E (void);
+// 0x00000046 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::ConfigureAutoSnap()
+extern void SnapZoneConfigurator_ConfigureAutoSnap_m08DD8F1011B1D51D3E5135F3A25D7829B6B517FC (void);
+// 0x00000047 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::ProcessOtherSnappablesOnSnap()
+extern void SnapZoneConfigurator_ProcessOtherSnappablesOnSnap_mD4FEC3EA2369810823C7E2E6156FC3C4025E9A78 (void);
+// 0x00000048 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::OnEnable()
+extern void SnapZoneConfigurator_OnEnable_m54C616DC6BB0D67E27C0164F30A5626B01404E55 (void);
+// 0x00000049 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::OnDisable()
+extern void SnapZoneConfigurator_OnDisable_mA13DA07A4E8E2930A5BD42C920A7F3E85BFF687F (void);
+// 0x0000004A System.Collections.IEnumerator Tilia.Interactions.SnapZone.SnapZoneConfigurator::SnapInitialAtEndOfFrame()
+extern void SnapZoneConfigurator_SnapInitialAtEndOfFrame_mDC2836354C7F10D0253B6699ADF61630FD0289D4 (void);
+// 0x0000004B System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::.ctor()
+extern void SnapZoneConfigurator__ctor_mAF2DE58D2DBFD40B2CD97FAC366DE81A91814BB3 (void);
+// 0x0000004C System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::<ConfigureValidityRules>b__78_0()
+extern void SnapZoneConfigurator_U3CConfigureValidityRulesU3Eb__78_0_m05694233BECB878E1A5743597E7050EC628CAF79 (void);
+// 0x0000004D System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::<ConfigureValidityRules>b__78_1()
+extern void SnapZoneConfigurator_U3CConfigureValidityRulesU3Eb__78_1_m71E2C0D5F57BA92B366FD7D0A7859DC1F0A6D1B2 (void);
+// 0x0000004E System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator::<ConfigurePropertyApplier>b__79_0()
+extern void SnapZoneConfigurator_U3CConfigurePropertyApplierU3Eb__79_0_m11293C1D81562395F4D57E507A1076A258E35FF9 (void);
+// 0x0000004F System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::.ctor(System.Int32)
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84__ctor_mF5D4C6667699E462B0991DDA8EAFC1E2DCC347C7 (void);
+// 0x00000050 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::System.IDisposable.Dispose()
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84_System_IDisposable_Dispose_m2F937C2B116A651B925CA7AB1C44AEE9A9090792 (void);
+// 0x00000051 System.Boolean Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::MoveNext()
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84_MoveNext_mB10FFFB19F40A4CC06B7AEB7E847BDF170001AB1 (void);
+// 0x00000052 System.Object Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8F7179120CE15CFE7081B3E602569D2EFDD1617D (void);
+// 0x00000053 System.Void Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::System.Collections.IEnumerator.Reset()
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_IEnumerator_Reset_mDD9E0461C28BE6C21AE442405429123BF8317EE1 (void);
+// 0x00000054 System.Object Tilia.Interactions.SnapZone.SnapZoneConfigurator/<SnapInitialAtEndOfFrame>d__84::System.Collections.IEnumerator.get_Current()
+extern void U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_IEnumerator_get_Current_mA4D3DFDBE517D8F7CFD4A98D82E765DD02820563 (void);
+// 0x00000055 Zinnia.Rule.RuleContainer Tilia.Interactions.SnapZone.SnapZoneFacade::get_SnapValidity()
+extern void SnapZoneFacade_get_SnapValidity_m43118F9B47998601DD08BA7398EB6CF87EAAFEC9 (void);
+// 0x00000056 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::set_SnapValidity(Zinnia.Rule.RuleContainer)
+extern void SnapZoneFacade_set_SnapValidity_m456EEB69432C1FE1B3FA02CD32C75976A6814AF4 (void);
+// 0x00000057 System.Single Tilia.Interactions.SnapZone.SnapZoneFacade::get_TransitionDuration()
+extern void SnapZoneFacade_get_TransitionDuration_m3E6617FB5DEB9F1CFE4FF2D4806C7E962589AFE7 (void);
+// 0x00000058 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::set_TransitionDuration(System.Single)
+extern void SnapZoneFacade_set_TransitionDuration_m49EB8467468866239D77F111956788C7D7A70E12 (void);
+// 0x00000059 Tilia.Interactions.Interactables.Interactables.InteractableFacade Tilia.Interactions.SnapZone.SnapZoneFacade::get_InitialSnappedInteractable()
+extern void SnapZoneFacade_get_InitialSnappedInteractable_mE20D9B18CE8A308D98B1A784CCDF546E2D4082C4 (void);
+// 0x0000005A System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::set_InitialSnappedInteractable(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void SnapZoneFacade_set_InitialSnappedInteractable_m98662FB927878F5EDDC392D00A8C30DB00AFB3F1 (void);
+// 0x0000005B System.Boolean Tilia.Interactions.SnapZone.SnapZoneFacade::get_AutoSnapThrownObjects()
+extern void SnapZoneFacade_get_AutoSnapThrownObjects_m8D5A405E21B0865339E424D6E0F178C541C70284 (void);
+// 0x0000005C System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::set_AutoSnapThrownObjects(System.Boolean)
+extern void SnapZoneFacade_set_AutoSnapThrownObjects_m5A2C1C297F1A0D04DD1A5ABAF12BA71D7E09704D (void);
+// 0x0000005D Tilia.Interactions.SnapZone.SnapZoneConfigurator Tilia.Interactions.SnapZone.SnapZoneFacade::get_Configuration()
+extern void SnapZoneFacade_get_Configuration_mE46FFE61675F49BE0EE72C0B0BC2034EFDDEC486 (void);
+// 0x0000005E System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::set_Configuration(Tilia.Interactions.SnapZone.SnapZoneConfigurator)
+extern void SnapZoneFacade_set_Configuration_m960EDD5BB02D74D2DA9B8EBB2120721AF2C98C28 (void);
+// 0x0000005F Zinnia.Data.Type.HeapAllocationFreeReadOnlyList`1<UnityEngine.GameObject> Tilia.Interactions.SnapZone.SnapZoneFacade::get_SnappableGameObjects()
+extern void SnapZoneFacade_get_SnappableGameObjects_mC87B88390C838B0C720ED291FCA933AAEC6B2855 (void);
+// 0x00000060 UnityEngine.GameObject Tilia.Interactions.SnapZone.SnapZoneFacade::get_SnappedGameObject()
+extern void SnapZoneFacade_get_SnappedGameObject_mDB8701665FAD74347BD083081F12BD45A8753E81 (void);
+// 0x00000061 Tilia.Interactions.SnapZone.SnapZoneFacade/SnapZoneState Tilia.Interactions.SnapZone.SnapZoneFacade::get_ZoneState()
+extern void SnapZoneFacade_get_ZoneState_m0443FCF399A054F7D3BC11920CB96D7BD275C8C8 (void);
+// 0x00000062 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::ClearSnapValidity()
+extern void SnapZoneFacade_ClearSnapValidity_mB06665E98036EB7C645662D3BD5E6E132052CD1E (void);
+// 0x00000063 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::Snap(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void SnapZoneFacade_Snap_mBB0D0ED0FED378CCBD2F5B2B161DEC5F00E7EB00 (void);
+// 0x00000064 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::Snap(UnityEngine.GameObject)
+extern void SnapZoneFacade_Snap_m5452AC6168B1B705228DCCECBC5D845963F51548 (void);
+// 0x00000065 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::Unsnap()
+extern void SnapZoneFacade_Unsnap_m91E9463B3B042AFC338E4211DDA1DF3CA24F6D49 (void);
+// 0x00000066 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::PreventSnappedObjectGrab()
+extern void SnapZoneFacade_PreventSnappedObjectGrab_m7EF6FC198AB8921CDB1AE36B1FFD0D863CCB99D6 (void);
+// 0x00000067 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::AllowSnappedObjectGrab()
+extern void SnapZoneFacade_AllowSnappedObjectGrab_mCE8BC03A800644D35AD43ED3B42A887CBED33D31 (void);
+// 0x00000068 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::ToggleSnappedObjectGrab(System.Boolean)
+extern void SnapZoneFacade_ToggleSnappedObjectGrab_m46BEA5D4F37BA06CAA07F31E234D7C7945520D14 (void);
+// 0x00000069 System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::OnAfterSnapValidityChange()
+extern void SnapZoneFacade_OnAfterSnapValidityChange_m7029103267EF5975272A32486B88BC82E2D09CE9 (void);
+// 0x0000006A System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::OnAfterTransitionDurationChange()
+extern void SnapZoneFacade_OnAfterTransitionDurationChange_m8B8653599D1E6BF660E95A2A7B5CF7E7FC26D0D7 (void);
+// 0x0000006B System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::OnAfterAutoSnapThrownObjectsChange()
+extern void SnapZoneFacade_OnAfterAutoSnapThrownObjectsChange_m0742875F432631CE830096F1206790562F72BEF4 (void);
+// 0x0000006C System.Void Tilia.Interactions.SnapZone.SnapZoneFacade::.ctor()
+extern void SnapZoneFacade__ctor_m6582276637E1F76FEF4E08B478F5FDB169B0A9A6 (void);
+// 0x0000006D System.Void Tilia.Interactions.SnapZone.SnapZoneFacade/UnityEvent::.ctor()
+extern void UnityEvent__ctor_m8C07AFCB53BBCADB68979F9B6116E4CDA95AB551 (void);
+// 0x0000006E System.Boolean Tilia.Interactions.SnapZone.SnapZoneManager::IsInSnapZone(Tilia.Interactions.Interactables.Interactables.InteractableFacade,Tilia.Interactions.SnapZone.SnapZoneFacade&)
+extern void SnapZoneManager_IsInSnapZone_m5A72C6F847486F478291373DFB6CB62E62212CE2 (void);
+// 0x0000006F System.Boolean Tilia.Interactions.SnapZone.SnapZoneManager::IsInSnapZone(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void SnapZoneManager_IsInSnapZone_m88419ECC3FC4BBACFD2916B3D42FEADA3352822C (void);
+// 0x00000070 System.Void Tilia.Interactions.SnapZone.SnapZoneManager::UnsnapInteractable(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void SnapZoneManager_UnsnapInteractable_m5179A0A21E9C4A23207023991909B63900BDB242 (void);
+// 0x00000071 System.Void Tilia.Interactions.SnapZone.SnapZoneManager::.ctor()
+extern void SnapZoneManager__ctor_m72E2C3F30433335D45960C27D751605B3ED33C31 (void);
+static Il2CppMethodPointer s_methodPointers[113] = 
+{
+	ActivationValidator_get_Facade_m6272F6F91E0D663DBBDDB07D8DD7B2B460CA2AA6,
+	ActivationValidator_set_Facade_m479CF5E203F9C79E6F30260C2518639E5BDDCD11,
+	ActivationValidator_get_IsActivated_m3EF201B8855301937DAFB3586A57685CA2DCD58A,
+	ActivationValidator_set_IsActivated_m615C9281F9BC090E00956CCC942FFF087246E423,
+	ActivationValidator_Activate_m1CB721FD4C21A4D2BBC010A4AB9A5BB1363E692D,
+	ActivationValidator_Deactivate_mB50B9F8F7A77001FA20640CC2A5E6CD2B763FE98,
+	ActivationValidator_ClearInvalidSnapZoneCollisions_mB6284D2215BE10C2D43076091E9CEB6513785E8B,
+	ActivationValidator_AttemptReactivation_mDBBE68C0BED4A3E133D474C48FE2AB9BE6D1383C,
+	ActivationValidator_CancelAttemptReactivation_m8EB3895CF853AF678939707814DC9070EA2650B3,
+	ActivationValidator_TrySetInteractableFacade_m78F8466DB25FCE24306EA59CA6431553C6A4E999,
+	ActivationValidator_TryGetInteractable_m64A32181B01AAF1A267DDE64B80712A862E73CFB,
+	ActivationValidator__ctor_m4DE6A0FA2E69F191AA9DFC8713331CA95F573912,
+	UnityEvent__ctor_mEB28659214CF89D9119A8392B5D82957A84605B0,
+	ListenerKey__ctor_mFB06D0837B38AE65BAB3CB306E38EE5B0B623A5D,
+	U3CU3Ec__DisplayClass16_0__ctor_mF3649BD4A7F75C3A491425BA67EDFE57B4A5B6D5,
+	U3CU3Ec__DisplayClass16_0_U3CActivateU3Eb__0_m06D81FE68EDB64451F2CE35BA2D90F0E3E39EC45,
+	U3CU3Ec__DisplayClass16_0_U3CActivateU3Eb__1_mD59CBB76148298E12606CB71EA7E495E15A8F3DD,
+	SnapZoneActivator_get_Facade_m43C43A35484A98FC6D3631CA8CA62B0B4A46E16E,
+	SnapZoneActivator_set_Facade_m330135301D757679455EE4D4CFF27B4813718A05,
+	SnapZoneActivator_get_CollisionTracker_mDE779B0F50238AEC5AD5C621D2C5D43F7E97D315,
+	SnapZoneActivator_set_CollisionTracker_mD71F52B9DF0632DFC9215ACABE9F49B9E37F212C,
+	SnapZoneActivator_get_Collider_mE13A9336A1313EC78AF5F58FB3E36D5DE1C4F59D,
+	SnapZoneActivator_set_Collider_m344F952A0CAE5393605C074BFD5222005BC13179,
+	SnapZoneActivator__ctor_mA97515ED7E212D2417CFD1D9D86ED4400450B382,
+	SnapZoneConfigurator_get_Facade_m9C12CA1BAFEAED1F19F135FFBD174807BAF3AE95,
+	SnapZoneConfigurator_set_Facade_mB002F95CFE9594ADEEB9CA1DA8401811186B5B81,
+	SnapZoneConfigurator_get_ValidCollisionRules_m041171AEE8621680FC005A52B1AB4EDAD146E2EB,
+	SnapZoneConfigurator_set_ValidCollisionRules_m0AE2362F2BA7B5FA3C4ABE95E45AA850BD4EB4CC,
+	SnapZoneConfigurator_get_AllValidRules_m360AC25B1EDCC16D9FC7E8124D48F13DA024EB48,
+	SnapZoneConfigurator_set_AllValidRules_mFAD43A7BBFA1616273991152DE35808369C17A51,
+	SnapZoneConfigurator_get_GrabStateEmitter_m99DDCFB609AD9826B7AADCD36EB73382C539A7CC,
+	SnapZoneConfigurator_set_GrabStateEmitter_m862FA33AABC6BE58F4F085C7573CDD3C22473C6E,
+	SnapZoneConfigurator_get_ActivationArea_m1A246F99EE94AAEDCB60611F3C7B44CDFE317B2A,
+	SnapZoneConfigurator_set_ActivationArea_mD9F38B0733652D62B86E3A89D0C4F0D2B323EF91,
+	SnapZoneConfigurator_get_ActivationValidator_m14A5DF77AB8907B2AE92F99D9459D26C490B9A5B,
+	SnapZoneConfigurator_set_ActivationValidator_m88B47BCED75556BCA6BB1A115B785793F4748A8A,
+	SnapZoneConfigurator_get_PropertyApplier_m8F3AE9E58D27CB1D1A14DAFAA3A294EA999A49CC,
+	SnapZoneConfigurator_set_PropertyApplier_mEA5BC06028AEF4CBB2115F1502D8966046E3CEBE,
+	SnapZoneConfigurator_get_CollidingObjectsList_m37459B81EA6DFA30F1E81D078C15154FD23E381F,
+	SnapZoneConfigurator_set_CollidingObjectsList_m2746D95AF89AA75962F6F4786466A68B6448600D,
+	SnapZoneConfigurator_get_ValidSnappableInteractablesList_mEE0EE1D483DA3BF2F4BDCD8024D412E1A3038301,
+	SnapZoneConfigurator_set_ValidSnappableInteractablesList_m70BF029598FF6B12325F3AAA40A36A46F36E3554,
+	SnapZoneConfigurator_get_SnappedInteractablesList_mD95E69C6B30D6305A5E0173E31F9AD440B46622C,
+	SnapZoneConfigurator_set_SnappedInteractablesList_m194E499AFBEB8F2262F2C7F50F27D3B9E94CADCD,
+	SnapZoneConfigurator_get_SnapDroppedInteractableProcess_mEA6DA456A6E658E07FFF1C86A23A19BF52C2CD08,
+	SnapZoneConfigurator_set_SnapDroppedInteractableProcess_mD3FA2959480CDFFEFDA4E72B4CBBF6226395EFCE,
+	SnapZoneConfigurator_get_ForceUnsnapInteractableProcess_m6A60791DCE354B63076B0B6065E11941BA1F4672,
+	SnapZoneConfigurator_set_ForceUnsnapInteractableProcess_mED7CD9761AF1B2B14A7713A47DEA3A299BF340BA,
+	SnapZoneConfigurator_get_DestinationLocation_mDE9B183A5E9CC85294A84265489BAD415ADEA5F8,
+	SnapZoneConfigurator_set_DestinationLocation_mFC9AAC39A3F8E7B295F248DD610F1E45AA43F0EA,
+	SnapZoneConfigurator_get_AutoSnapLogicContainer_mF2FB964EFD1709A71EDF486FD3796D76FA1CC755,
+	SnapZoneConfigurator_set_AutoSnapLogicContainer_m9FF972DB814174C402BEE215EA070074EF9E55DB,
+	SnapZoneConfigurator_get_InitialTransitionDuration_m2BB4F7BA09D5F605857F66DC163F31A68D73DA93,
+	SnapZoneConfigurator_set_InitialTransitionDuration_mB1D0B288059809F63C4CC30D1029F8A86EBB2F00,
+	SnapZoneConfigurator_get_SnappableInteractables_mE8C0245E3430875089B8DE53EBFC8406AC80D0FB,
+	SnapZoneConfigurator_get_SnappedInteractable_m3732947476CD64BD466E7FB4589A7BBD1DBF46CF,
+	SnapZoneConfigurator_PrepareKinematicStateChange_m47713300881A818EEF0D623359FAD60B8CEA565A,
+	SnapZoneConfigurator_PrepareKinematicStateChange_mC6DD3B378E5203B8D9FEE4186AB68E4744FBBB83,
+	SnapZoneConfigurator_PrepareKinematicStateChange_m6A8C16094C9BD07636CB6A3D963C6517415962D5,
+	SnapZoneConfigurator_Snap_mC478BB3E8C17A5FCA7EBF137D42421659A55EBE2,
+	SnapZoneConfigurator_Unsnap_m341B9845891217D311DC17CCAABA623F6C5B4A97,
+	SnapZoneConfigurator_EmitEntered_m582A2BCE3B03CEDAEA665FC54FA2A2496BC5B931,
+	SnapZoneConfigurator_EmitExited_mD4ABC434987A3CD680E0F90D5B2D1C4D3EECE9B2,
+	SnapZoneConfigurator_EmitActivated_m5319CC4F30682BC4827DBA46C052B7116D8FFB08,
+	SnapZoneConfigurator_EmitDeactivated_m55B70771115B8F5EC6E899EA6048F7D8CEA9F02B,
+	SnapZoneConfigurator_EmitSnapped_mEAE9FDCE1608616F74944ECAE846D11E2BF9F2F1,
+	SnapZoneConfigurator_EmitUnsnapped_m03BE9E612BE5844AE97783D39117F919EF67BB68,
+	SnapZoneConfigurator_ConfigureValidityRules_mA355A8BB725A294557ABE4065290CF5B64EBFEB1,
+	SnapZoneConfigurator_ConfigurePropertyApplier_m00D7C718D6F25CDC09DDBC5C07387B33D452FC2E,
+	SnapZoneConfigurator_ConfigureAutoSnap_m08DD8F1011B1D51D3E5135F3A25D7829B6B517FC,
+	SnapZoneConfigurator_ProcessOtherSnappablesOnSnap_mD4FEC3EA2369810823C7E2E6156FC3C4025E9A78,
+	SnapZoneConfigurator_OnEnable_m54C616DC6BB0D67E27C0164F30A5626B01404E55,
+	SnapZoneConfigurator_OnDisable_mA13DA07A4E8E2930A5BD42C920A7F3E85BFF687F,
+	SnapZoneConfigurator_SnapInitialAtEndOfFrame_mDC2836354C7F10D0253B6699ADF61630FD0289D4,
+	SnapZoneConfigurator__ctor_mAF2DE58D2DBFD40B2CD97FAC366DE81A91814BB3,
+	SnapZoneConfigurator_U3CConfigureValidityRulesU3Eb__78_0_m05694233BECB878E1A5743597E7050EC628CAF79,
+	SnapZoneConfigurator_U3CConfigureValidityRulesU3Eb__78_1_m71E2C0D5F57BA92B366FD7D0A7859DC1F0A6D1B2,
+	SnapZoneConfigurator_U3CConfigurePropertyApplierU3Eb__79_0_m11293C1D81562395F4D57E507A1076A258E35FF9,
+	U3CSnapInitialAtEndOfFrameU3Ed__84__ctor_mF5D4C6667699E462B0991DDA8EAFC1E2DCC347C7,
+	U3CSnapInitialAtEndOfFrameU3Ed__84_System_IDisposable_Dispose_m2F937C2B116A651B925CA7AB1C44AEE9A9090792,
+	U3CSnapInitialAtEndOfFrameU3Ed__84_MoveNext_mB10FFFB19F40A4CC06B7AEB7E847BDF170001AB1,
+	U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8F7179120CE15CFE7081B3E602569D2EFDD1617D,
+	U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_IEnumerator_Reset_mDD9E0461C28BE6C21AE442405429123BF8317EE1,
+	U3CSnapInitialAtEndOfFrameU3Ed__84_System_Collections_IEnumerator_get_Current_mA4D3DFDBE517D8F7CFD4A98D82E765DD02820563,
+	SnapZoneFacade_get_SnapValidity_m43118F9B47998601DD08BA7398EB6CF87EAAFEC9,
+	SnapZoneFacade_set_SnapValidity_m456EEB69432C1FE1B3FA02CD32C75976A6814AF4,
+	SnapZoneFacade_get_TransitionDuration_m3E6617FB5DEB9F1CFE4FF2D4806C7E962589AFE7,
+	SnapZoneFacade_set_TransitionDuration_m49EB8467468866239D77F111956788C7D7A70E12,
+	SnapZoneFacade_get_InitialSnappedInteractable_mE20D9B18CE8A308D98B1A784CCDF546E2D4082C4,
+	SnapZoneFacade_set_InitialSnappedInteractable_m98662FB927878F5EDDC392D00A8C30DB00AFB3F1,
+	SnapZoneFacade_get_AutoSnapThrownObjects_m8D5A405E21B0865339E424D6E0F178C541C70284,
+	SnapZoneFacade_set_AutoSnapThrownObjects_m5A2C1C297F1A0D04DD1A5ABAF12BA71D7E09704D,
+	SnapZoneFacade_get_Configuration_mE46FFE61675F49BE0EE72C0B0BC2034EFDDEC486,
+	SnapZoneFacade_set_Configuration_m960EDD5BB02D74D2DA9B8EBB2120721AF2C98C28,
+	SnapZoneFacade_get_SnappableGameObjects_mC87B88390C838B0C720ED291FCA933AAEC6B2855,
+	SnapZoneFacade_get_SnappedGameObject_mDB8701665FAD74347BD083081F12BD45A8753E81,
+	SnapZoneFacade_get_ZoneState_m0443FCF399A054F7D3BC11920CB96D7BD275C8C8,
+	SnapZoneFacade_ClearSnapValidity_mB06665E98036EB7C645662D3BD5E6E132052CD1E,
+	SnapZoneFacade_Snap_mBB0D0ED0FED378CCBD2F5B2B161DEC5F00E7EB00,
+	SnapZoneFacade_Snap_m5452AC6168B1B705228DCCECBC5D845963F51548,
+	SnapZoneFacade_Unsnap_m91E9463B3B042AFC338E4211DDA1DF3CA24F6D49,
+	SnapZoneFacade_PreventSnappedObjectGrab_m7EF6FC198AB8921CDB1AE36B1FFD0D863CCB99D6,
+	SnapZoneFacade_AllowSnappedObjectGrab_mCE8BC03A800644D35AD43ED3B42A887CBED33D31,
+	SnapZoneFacade_ToggleSnappedObjectGrab_m46BEA5D4F37BA06CAA07F31E234D7C7945520D14,
+	SnapZoneFacade_OnAfterSnapValidityChange_m7029103267EF5975272A32486B88BC82E2D09CE9,
+	SnapZoneFacade_OnAfterTransitionDurationChange_m8B8653599D1E6BF660E95A2A7B5CF7E7FC26D0D7,
+	SnapZoneFacade_OnAfterAutoSnapThrownObjectsChange_m0742875F432631CE830096F1206790562F72BEF4,
+	SnapZoneFacade__ctor_m6582276637E1F76FEF4E08B478F5FDB169B0A9A6,
+	UnityEvent__ctor_m8C07AFCB53BBCADB68979F9B6116E4CDA95AB551,
+	SnapZoneManager_IsInSnapZone_m5A72C6F847486F478291373DFB6CB62E62212CE2,
+	SnapZoneManager_IsInSnapZone_m88419ECC3FC4BBACFD2916B3D42FEADA3352822C,
+	SnapZoneManager_UnsnapInteractable_m5179A0A21E9C4A23207023991909B63900BDB242,
+	SnapZoneManager__ctor_m72E2C3F30433335D45960C27D751605B3ED33C31,
+};
+extern void ListenerKey__ctor_mFB06D0837B38AE65BAB3CB306E38EE5B0B623A5D_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+{
+	{ 0x0600000E, ListenerKey__ctor_mFB06D0837B38AE65BAB3CB306E38EE5B0B623A5D_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[113] = 
+{
+	6550,
+	5289,
+	6451,
+	5190,
+	5289,
+	5289,
+	2943,
+	2963,
+	2963,
+	5289,
+	4689,
+	6669,
+	6669,
+	2963,
+	6669,
+	5289,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6669,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6550,
+	5289,
+	6608,
+	5344,
+	6269,
+	6550,
+	5289,
+	5289,
+	5289,
+	5289,
+	6669,
+	5289,
+	5289,
+	5289,
+	5289,
+	5289,
+	5289,
+	6669,
+	6669,
+	6669,
+	6669,
+	6669,
+	6669,
+	6550,
+	6669,
+	6669,
+	6669,
+	6669,
+	5258,
+	6669,
+	6451,
+	6550,
+	6669,
+	6550,
+	6550,
+	5289,
+	6608,
+	5344,
+	6550,
+	5289,
+	6451,
+	5190,
+	6550,
+	5289,
+	6269,
+	6550,
+	6520,
+	6669,
+	5289,
+	5289,
+	6669,
+	6669,
+	6669,
+	5190,
+	6669,
+	6669,
+	6669,
+	6669,
+	6669,
+	1840,
+	3758,
+	5289,
+	6669,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Tilia_Interactions_SnapZone_Unity_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Tilia_Interactions_SnapZone_Unity_Runtime_CodeGenModule = 
+{
+	"Tilia.Interactions.SnapZone.Unity.Runtime.dll",
+	113,
+	s_methodPointers,
+	1,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

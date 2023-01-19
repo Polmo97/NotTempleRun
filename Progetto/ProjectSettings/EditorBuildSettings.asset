@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/er06/Scenes/TestChiavi.unity
+    guid: b5b2725fba262204393838a7b15c116b
+  - enabled: 1
     path: Assets/er06/Scenes/TestMinigioco.unity
     guid: 8445967d4e284b444acbce570a1acbaa
   m_configObjects:
