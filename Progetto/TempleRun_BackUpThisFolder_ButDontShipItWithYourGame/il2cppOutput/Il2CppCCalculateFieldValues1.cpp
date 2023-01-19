@@ -442,6 +442,8 @@ struct List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A;
 struct List_1_t12235B29D25E521224D1B3E7E775EBD17D5BFA71;
 // System.Collections.Generic.List`1<UnityEngine.Camera>
 struct List_1_tD2FA3273746E404D72561E8324608D18B52B533E;
+// System.Collections.Generic.List`1<Zinnia.Visual.CameraColorOverlay>
+struct List_1_t3926804BA8EC0EE1417570068D28C9137671BDD8;
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
 struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.Text.Character>
@@ -564,6 +566,8 @@ struct List_1_t15AD773D34D3739AFB67421B6DFFACEA7638F64E;
 struct List_1_t2D19D6F759F401FE6C5460698E5B8249E470E044;
 // System.Collections.Generic.List`1<UnityEngine.SubsystemsImplementation.SubsystemWithProvider>
 struct List_1_tD834E8FB7FDC0D4243FBCF922D7FE4E3C707AAC3;
+// System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator>
+struct List_1_t9EEE18585DF333CCFB1A3EF4C781A9D65AFA56C1;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.Text.TextStyle>
 struct List_1_t2AFC9C88B8DEFBC5C4C13A94CD97E65EF9AA29C1;
 // System.Collections.Generic.List`1<UnityEngine.Texture2D>
@@ -572,6 +576,8 @@ struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4;
 struct List_1_t2442BD257DAE679440EEB79FE0D4679F4C55DA16;
 // System.Collections.Generic.List`1<UnityEngine.Transform>
 struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D;
+// System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier>
+struct List_1_t76769D26F0B9AA96C83B73860A298AC07737B406;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
 struct List_1_t67A1600A303BB89506DFD21B59687088B7E0675B;
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
@@ -1658,8 +1664,16 @@ struct StringBuilder_t;
 struct StringObservableList_t129C9C2D90D053400043BA0C3351F5D2F4F5A432;
 // UnityEngine.SubsystemsImplementation.SubsystemProvider
 struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+// Zinnia.Action.SurfaceChangeAction
+struct SurfaceChangeAction_t43BB2B0C39698746B5848B1795D346984B0A5C0B;
 // Zinnia.Data.Type.SurfaceData
 struct SurfaceData_t91AD728B78F4D689FBEB294FC15FDB0E1B975587;
+// Zinnia.Tracking.SurfaceLocator
+struct SurfaceLocator_t6508A4607CCA6AD802FB8FD03227DB821A121075;
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator
+struct TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA;
+// Tilia.Locomotors.Teleporter.TeleporterFacade
+struct TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5;
 // UnityEngine.UI.Text
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
 // UnityEngine.TextAsset
@@ -1718,6 +1732,8 @@ struct TrackedAliasFacade_t86B5281DACB548DDD385CF97CC15DDB04B97446D;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // Zinnia.Data.Type.TransformData
 struct TransformData_t8B704F7BFD1E390A9CA280DDACE5F006ADFDE3F7;
+// Zinnia.Event.Proxy.TransformDataProxyEmitter
+struct TransformDataProxyEmitter_t623F52A2AC804D956F84622E36FAF0D3F9A6941D;
 // Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformPositionDifferenceRotation
 struct TransformPositionDifferenceRotation_t97807C2F35CD9E4F0ECC098C63775E91DAEC6074;
 // Zinnia.Tracking.Modification.TransformPropertyApplier
@@ -1856,8 +1872,6 @@ struct LowMemoryCallback_tF685A8AA4A24BB7603D190EB750E61C3F963026F;
 struct AtlasNode_tD031D7BFC95A96AAD9C344F59A3621025EA3CBF4;
 // UnityEngine.Rendering.AtlasAllocatorDynamic/AtlasNodePool
 struct AtlasNodePool_t3A74A7331B2EEA0321FE04A40B1E770A3894D1E0;
-// UnityEngine.AudioSettings/AudioConfigurationChangeHandler
-struct AudioConfigurationChangeHandler_tE071B0CBA3B3A77D3E41F5FCB65B4017885B3177;
 // UnityEngine.Rendering.BatchRendererGroup/OnPerformCulling
 struct OnPerformCulling_t02E073FD42F34E90694BF7D1C321EC8007FB45F2;
 // Zinnia.Action.BooleanAction/UnityEvent
@@ -2448,11 +2462,6 @@ struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObje
 
 // UnityEngine.AttributeHelperEngine
 struct AttributeHelperEngine_t6B3D8969EF52C428F6DD05AB6A788FB43FD69520  : public RuntimeObject
-{
-};
-
-// UnityEngine.AudioSettings
-struct AudioSettings_t66C4BCA1E463B061E2EC9063FB882ACED20D47BD  : public RuntimeObject
 {
 };
 
@@ -4485,11 +4494,6 @@ struct U3CHapticProcessRoutineU3Ed__7_tDFEA873C000EF5F08CECC50445A928BEC00B4447 
 	float ___U3CsampleRateU3E5__6_7;
 };
 
-// UnityEngine.AudioSettings/Mobile
-struct Mobile_t304A73480DF447472BDB16BA19A9E4FE2C8CB2DD  : public RuntimeObject
-{
-};
-
 // Zinnia.Haptics.AudioSourceHapticPulser/<HapticProcessRoutine>d__8
 struct U3CHapticProcessRoutineU3Ed__8_t1FA9A4C65DA3FA933AB03C7BA3E7744D0DA834D0  : public RuntimeObject
 {
@@ -5537,6 +5541,17 @@ struct MatEntry_tF1DC29AF9CCFDBC456188F99166F26D1B6772EE2  : public RuntimeObjec
 	bool ___useAlphaClip_8;
 	// UnityEngine.Rendering.ColorWriteMask UnityEngine.UI.StencilMaterial/MatEntry::colorMask
 	int32_t ___colorMask_9;
+};
+
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67
+struct U3CResetOffsetAtEndOfFrameU3Ed__67_t6609CA605ED418D3F59D69987F2F07C6D2D1C97C  : public RuntimeObject
+{
+	// System.Int32 Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Tilia.Locomotors.Teleporter.TeleporterConfigurator Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67::<>4__this
+	TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA* ___U3CU3E4__this_2;
 };
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.Tess/ActiveRegion
@@ -28526,6 +28541,74 @@ struct SurfaceLocator_t6508A4607CCA6AD802FB8FD03227DB821A121075  : public MonoBe
 	TransformData_t8B704F7BFD1E390A9CA280DDACE5F006ADFDE3F7* ___transformData_19;
 };
 
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator
+struct TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Tilia.Locomotors.Teleporter.TeleporterFacade Tilia.Locomotors.Teleporter.TeleporterConfigurator::facade
+	TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5* ___facade_4;
+	// Zinnia.Event.Proxy.TransformDataProxyEmitter Tilia.Locomotors.Teleporter.TeleporterConfigurator::teleportLogicProxy
+	TransformDataProxyEmitter_t623F52A2AC804D956F84622E36FAF0D3F9A6941D* ___teleportLogicProxy_5;
+	// Zinnia.Tracking.SurfaceLocator Tilia.Locomotors.Teleporter.TeleporterConfigurator::surfaceTeleporter
+	SurfaceLocator_t6508A4607CCA6AD802FB8FD03227DB821A121075* ___surfaceTeleporter_6;
+	// Zinnia.Tracking.Modification.TransformPropertyApplier Tilia.Locomotors.Teleporter.TeleporterConfigurator::modifyTeleporter
+	TransformPropertyApplier_tC39F2FE1FB4E65C922154F5DE5733430D25B931E* ___modifyTeleporter_7;
+	// UnityEngine.GameObject Tilia.Locomotors.Teleporter.TeleporterConfigurator::snapToFloorContainer
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___snapToFloorContainer_8;
+	// System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator> Tilia.Locomotors.Teleporter.TeleporterConfigurator::surfaceLocatorAliases
+	List_1_t9EEE18585DF333CCFB1A3EF4C781A9D65AFA56C1* ___surfaceLocatorAliases_9;
+	// System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator> Tilia.Locomotors.Teleporter.TeleporterConfigurator::surfaceLocatorRules
+	List_1_t9EEE18585DF333CCFB1A3EF4C781A9D65AFA56C1* ___surfaceLocatorRules_10;
+	// System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier> Tilia.Locomotors.Teleporter.TeleporterConfigurator::transformPropertyApplierAliases
+	List_1_t76769D26F0B9AA96C83B73860A298AC07737B406* ___transformPropertyApplierAliases_11;
+	// System.Collections.Generic.List`1<Zinnia.Tracking.Modification.TransformPropertyApplier> Tilia.Locomotors.Teleporter.TeleporterConfigurator::transformPropertyApplierIgnoreOffsetAliases
+	List_1_t76769D26F0B9AA96C83B73860A298AC07737B406* ___transformPropertyApplierIgnoreOffsetAliases_12;
+	// System.Collections.Generic.List`1<Zinnia.Visual.CameraColorOverlay> Tilia.Locomotors.Teleporter.TeleporterConfigurator::cameraColorOverlays
+	List_1_t3926804BA8EC0EE1417570068D28C9137671BDD8* ___cameraColorOverlays_13;
+	// Zinnia.Action.SurfaceChangeAction Tilia.Locomotors.Teleporter.TeleporterConfigurator::snapToFloorThresholdController
+	SurfaceChangeAction_t43BB2B0C39698746B5848B1795D346984B0A5C0B* ___snapToFloorThresholdController_14;
+	// Zinnia.Action.SurfaceChangeAction Tilia.Locomotors.Teleporter.TeleporterConfigurator::snapToFloorBlinkThresholdController
+	SurfaceChangeAction_t43BB2B0C39698746B5848B1795D346984B0A5C0B* ___snapToFloorBlinkThresholdController_15;
+	// System.Collections.Generic.List`1<Zinnia.Tracking.SurfaceLocator> Tilia.Locomotors.Teleporter.TeleporterConfigurator::cachedLocators
+	List_1_t9EEE18585DF333CCFB1A3EF4C781A9D65AFA56C1* ___cachedLocators_16;
+	// System.Single Tilia.Locomotors.Teleporter.TeleporterConfigurator::cachedSnapToFloorBlinkThreshold
+	float ___cachedSnapToFloorBlinkThreshold_17;
+	// System.Boolean Tilia.Locomotors.Teleporter.TeleporterConfigurator::allowSnapToFloorBlinkThresholdSet
+	bool ___allowSnapToFloorBlinkThresholdSet_18;
+	// UnityEngine.Coroutine Tilia.Locomotors.Teleporter.TeleporterConfigurator::resetCachedDataRoutine
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___resetCachedDataRoutine_19;
+};
+
+// Tilia.Locomotors.Teleporter.TeleporterFacade
+struct TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject Tilia.Locomotors.Teleporter.TeleporterFacade::target
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___target_4;
+	// UnityEngine.GameObject Tilia.Locomotors.Teleporter.TeleporterFacade::offset
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___offset_5;
+	// Tilia.Locomotors.Teleporter.TeleporterFacade/OffsetType Tilia.Locomotors.Teleporter.TeleporterFacade::offsetUsage
+	int32_t ___offsetUsage_6;
+	// System.Boolean Tilia.Locomotors.Teleporter.TeleporterFacade::applyDestinationRotation
+	bool ___applyDestinationRotation_7;
+	// Zinnia.Rule.RuleContainer Tilia.Locomotors.Teleporter.TeleporterFacade::cameraValidity
+	RuleContainer_t94F7E8793D5A30D8E226EC86A4F1632F134F2B34* ___cameraValidity_8;
+	// Zinnia.Rule.RuleContainer Tilia.Locomotors.Teleporter.TeleporterFacade::targetValidity
+	RuleContainer_t94F7E8793D5A30D8E226EC86A4F1632F134F2B34* ___targetValidity_9;
+	// System.Boolean Tilia.Locomotors.Teleporter.TeleporterFacade::snapToFloorEnabled
+	bool ___snapToFloorEnabled_10;
+	// System.Single Tilia.Locomotors.Teleporter.TeleporterFacade::snapToFloorThreshold
+	float ___snapToFloorThreshold_11;
+	// System.Single Tilia.Locomotors.Teleporter.TeleporterFacade::snapToFloorBlinkThreshold
+	float ___snapToFloorBlinkThreshold_12;
+	// UnityEngine.Vector3 Tilia.Locomotors.Teleporter.TeleporterFacade::destinationOffset
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___destinationOffset_13;
+	// Zinnia.Tracking.Modification.TransformPropertyApplier/UnityEvent Tilia.Locomotors.Teleporter.TeleporterFacade::Teleporting
+	UnityEvent_t449CF84AA4B18252A686A68E2A54E6672DDFBA2D* ___Teleporting_14;
+	// Zinnia.Tracking.Modification.TransformPropertyApplier/UnityEvent Tilia.Locomotors.Teleporter.TeleporterFacade::Teleported
+	UnityEvent_t449CF84AA4B18252A686A68E2A54E6672DDFBA2D* ___Teleported_15;
+	// Tilia.Locomotors.Teleporter.TeleporterConfigurator Tilia.Locomotors.Teleporter.TeleporterFacade::configuration
+	TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA* ___configuration_16;
+};
+
 // Tilia.Interactions.Interactables.Interactables.Touch.TouchInteractableConfigurator
 struct TouchInteractableConfigurator_tF388FACA92F916FF6C59FEED10EA5564DC40AAD7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -32081,19 +32164,6 @@ struct AttributeHelperEngine_t6B3D8969EF52C428F6DD05AB6A788FB43FD69520_StaticFie
 
 // UnityEngine.AttributeHelperEngine
 
-// UnityEngine.AudioSettings
-struct AudioSettings_t66C4BCA1E463B061E2EC9063FB882ACED20D47BD_StaticFields
-{
-	// UnityEngine.AudioSettings/AudioConfigurationChangeHandler UnityEngine.AudioSettings::OnAudioConfigurationChanged
-	AudioConfigurationChangeHandler_tE071B0CBA3B3A77D3E41F5FCB65B4017885B3177* ___OnAudioConfigurationChanged_0;
-	// System.Action UnityEngine.AudioSettings::OnAudioSystemShuttingDown
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAudioSystemShuttingDown_1;
-	// System.Action UnityEngine.AudioSettings::OnAudioSystemStartedUp
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAudioSystemStartedUp_2;
-};
-
-// UnityEngine.AudioSettings
-
 // UnityEngine.Events.BaseInvokableCall
 
 // UnityEngine.Events.BaseInvokableCall
@@ -34003,19 +34073,6 @@ struct U3CU3Ec_tB15EE8CAD7A79C2BC916C6233BF1E9A8D5C8DACE_StaticFields
 
 // Zinnia.Haptics.AudioClipHapticPulser/<HapticProcessRoutine>d__7
 
-// UnityEngine.AudioSettings/Mobile
-struct Mobile_t304A73480DF447472BDB16BA19A9E4FE2C8CB2DD_StaticFields
-{
-	// System.Boolean UnityEngine.AudioSettings/Mobile::<muteState>k__BackingField
-	bool ___U3CmuteStateU3Ek__BackingField_0;
-	// System.Boolean UnityEngine.AudioSettings/Mobile::_stopAudioOutputOnMute
-	bool ____stopAudioOutputOnMute_1;
-	// System.Action`1<System.Boolean> UnityEngine.AudioSettings/Mobile::OnMuteStateChanged
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___OnMuteStateChanged_2;
-};
-
-// UnityEngine.AudioSettings/Mobile
-
 // Zinnia.Haptics.AudioSourceHapticPulser/<HapticProcessRoutine>d__8
 
 // Zinnia.Haptics.AudioSourceHapticPulser/<HapticProcessRoutine>d__8
@@ -35170,6 +35227,10 @@ struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76_StaticFields
 // UnityEngine.UI.StencilMaterial/MatEntry
 
 // UnityEngine.UI.StencilMaterial/MatEntry
+
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67
+
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator/<ResetOffsetAtEndOfFrame>d__67
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.Tess/ActiveRegion
 
@@ -41056,6 +41117,14 @@ struct SurfaceLocator_t6508A4607CCA6AD802FB8FD03227DB821A121075_StaticFields
 };
 
 // Zinnia.Tracking.SurfaceLocator
+
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator
+
+// Tilia.Locomotors.Teleporter.TeleporterConfigurator
+
+// Tilia.Locomotors.Teleporter.TeleporterFacade
+
+// Tilia.Locomotors.Teleporter.TeleporterFacade
 
 // Tilia.Interactions.Interactables.Interactables.Touch.TouchInteractableConfigurator
 
@@ -48003,30 +48072,36 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[1] = 
 {
 	static_cast<int32_t>(offsetof(SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455, ___m_Running_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[3] = 
+{
+	static_cast<int32_t>(offsetof(U3CResetOffsetAtEndOfFrameU3Ed__67_t6609CA605ED418D3F59D69987F2F07C6D2D1C97C, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CResetOffsetAtEndOfFrameU3Ed__67_t6609CA605ED418D3F59D69987F2F07C6D2D1C97C, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CResetOffsetAtEndOfFrameU3Ed__67_t6609CA605ED418D3F59D69987F2F07C6D2D1C97C, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[16] = 
+{
+	static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___facade_4)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___teleportLogicProxy_5)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___surfaceTeleporter_6)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___modifyTeleporter_7)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___snapToFloorContainer_8)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___surfaceLocatorAliases_9)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___surfaceLocatorRules_10)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___transformPropertyApplierAliases_11)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___transformPropertyApplierIgnoreOffsetAliases_12)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___cameraColorOverlays_13)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___snapToFloorThresholdController_14)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___snapToFloorBlinkThresholdController_15)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___cachedLocators_16)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___cachedSnapToFloorBlinkThreshold_17)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___allowSnapToFloorBlinkThresholdSet_18)),static_cast<int32_t>(offsetof(TeleporterConfigurator_tCAA53275C0F820FF26D9065E2E01F5338F7C32AA, ___resetCachedDataRoutine_19)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5988[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[13] = 
+{
+	static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___target_4)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___offset_5)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___offsetUsage_6)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___applyDestinationRotation_7)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___cameraValidity_8)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___targetValidity_9)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___snapToFloorEnabled_10)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___snapToFloorThreshold_11)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___snapToFloorBlinkThreshold_12)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___destinationOffset_13)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___Teleporting_14)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___Teleported_15)),static_cast<int32_t>(offsetof(TeleporterFacade_tCFDBA2C4CF7C528251502994A161CCCB03615FC5, ___configuration_16)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[2] = 
 {
 	static_cast<int32_t>(offsetof(XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2, ___U3CdisplayNameU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(XRConfigurationDataAttribute_tFCF093318B5224BCC0E168E99C562AB50DDFC0B2, ___U3CbuildSettingsKeyU3Ek__BackingField_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[7] = 
 {
 	static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields, ___k_SettingsKey_4)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_StaticFields, ___s_RuntimeSettingsInstance_5)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE, ___m_LoaderManagerInstance_6)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE, ___m_InitManagerOnStart_7)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE, ___m_XRManager_8)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE, ___m_ProviderIntialized_9)),static_cast<int32_t>(offsetof(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE, ___m_ProviderStarted_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[1] = 
 {
 	static_cast<int32_t>(offsetof(XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC, ___m_SubsystemInstanceMap_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5990[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[4] = 
 {
 	static_cast<int32_t>(offsetof(BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E, ___buildGuid_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E, ___buildTarget_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E, ___buildTargetGroup_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(BuildEvent_tE21D64E5354C87B5E40D2D2648C677B96CCA811E, ___assigned_loaders_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[5] = 
 {
 	0,0,0,0,static_cast<int32_t>(offsetof(XRManagementAnalytics_t9A6F8603FBB618B8FEC7A6BF3FD9615C61C1063F_StaticFields, ___s_Initialized_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[4] = 
 {
 	static_cast<int32_t>(offsetof(U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CInitializeLoaderU3Ed__24_t02DE083CB86C55D65BAF82701483413204DE18C7, ___U3CU3E7__wrap1_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[7] = 
 {
 	static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_InitializationComplete_4)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_RequiresSettingsUpdate_5)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_AutomaticLoading_6)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_AutomaticRunning_7)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_Loaders_8)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___m_RegisteredLoaders_9)),static_cast<int32_t>(offsetof(XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52, ___U3CactiveLoaderU3Ek__BackingField_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[3] = 
-{
-	static_cast<int32_t>(offsetof(Mobile_t304A73480DF447472BDB16BA19A9E4FE2C8CB2DD_StaticFields, ___U3CmuteStateU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(Mobile_t304A73480DF447472BDB16BA19A9E4FE2C8CB2DD_StaticFields, ____stopAudioOutputOnMute_1)),static_cast<int32_t>(offsetof(Mobile_t304A73480DF447472BDB16BA19A9E4FE2C8CB2DD_StaticFields, ___OnMuteStateChanged_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[3] = 
-{
-	static_cast<int32_t>(offsetof(AudioSettings_t66C4BCA1E463B061E2EC9063FB882ACED20D47BD_StaticFields, ___OnAudioConfigurationChanged_0)),static_cast<int32_t>(offsetof(AudioSettings_t66C4BCA1E463B061E2EC9063FB882ACED20D47BD_StaticFields, ___OnAudioSystemShuttingDown_1)),static_cast<int32_t>(offsetof(AudioSettings_t66C4BCA1E463B061E2EC9063FB882ACED20D47BD_StaticFields, ___OnAudioSystemStartedUp_2)),};
