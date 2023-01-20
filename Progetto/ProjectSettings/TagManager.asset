@@ -8,6 +8,7 @@ TagManager:
   - Key
   - Stone
   - Snap
+  - SnapChiavi
   layers:
   - Default
   - TransparentFX
