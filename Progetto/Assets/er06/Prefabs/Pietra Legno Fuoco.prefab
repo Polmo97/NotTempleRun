@@ -394,7 +394,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8736989667515401050, guid: 7d724299b64009349b531935dd41d143, type: 3}
+  - {fileID: 2100000, guid: 3d39af873dbb99742ab540cabeef7265, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1328,7 +1328,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8736989667515401050, guid: 7d724299b64009349b531935dd41d143, type: 3}
+  - {fileID: 2100000, guid: 3d39af873dbb99742ab540cabeef7265, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1426,7 +1426,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8736989667515401050, guid: 7d724299b64009349b531935dd41d143, type: 3}
+  - {fileID: 2100000, guid: 3d39af873dbb99742ab540cabeef7265, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1534,6 +1534,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2907268856860135730, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907268856860135730, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4126418835067212903, guid: 14f3e8a403b8069458554d142bdd8ceb,
         type: 3}
       propertyPath: m_Name
@@ -1549,11 +1559,87 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3177283947916741327}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_isKinematic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3177283947916741327}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_isKinematic
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Rigidbody, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Rigidbody, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: Grabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6363489334368078044, guid: 14f3e8a403b8069458554d142bdd8ceb,
+        type: 3}
+      propertyPath: FirstGrabbed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f3e8a403b8069458554d142bdd8ceb, type: 3}
 --- !u!4 &2783273637059562691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2517344885480199998, guid: 14f3e8a403b8069458554d142bdd8ceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 310549867838872573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &3177283947916741327 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2907268856860135730, guid: 14f3e8a403b8069458554d142bdd8ceb,
     type: 3}
   m_PrefabInstance: {fileID: 310549867838872573}
   m_PrefabAsset: {fileID: 0}

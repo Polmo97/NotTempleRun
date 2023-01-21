@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/er06/Scenes/TestChiavi.unity
-    guid: b5b2725fba262204393838a7b15c116b
-  - enabled: 1
-    path: Assets/er06/Scenes/TestMinigioco.unity
-    guid: 8445967d4e284b444acbce570a1acbaa
+    path: Assets/er06/Scenes/ScenaFinale.unity
+    guid: 88eed8c2115f814468b4813baf1ec5a6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f50a2502b0443a549a70d445c2fb6720,
       type: 2}

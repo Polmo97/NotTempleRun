@@ -20,6 +20,7 @@ public class PallinaController : MonoBehaviour
         if (other.gameObject.tag == "Respawn")
         {
             transform.position = posizioneIniziale;
+            rigidbody.velocity = new Vector3(0, 0, 0);
         }
 
         if (other.gameObject.tag == "Traguardo")
