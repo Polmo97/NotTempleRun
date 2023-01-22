@@ -121,7 +121,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6761,6 +6761,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5325604647467355025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7500819981018058279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6848906eb3093cd43b4fbdba7c5a2588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioUrto: {fileID: 1272957123132939204}
+  audioRotolo: {fileID: 9090481780473119460}
+  _rigidbody: {fileID: 5828224097322662190}
 --- !u!114 &5828224097322662186
 MonoBehaviour:
   m_ObjectHideFlags: 0

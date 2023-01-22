@@ -21,8 +21,8 @@ namespace er06 {
             }
         }
 
-        public void GrabbedTrue() {
-            grabbed = true;
+        public void GrabbedStatus(bool trueOrFalse) {
+            grabbed = trueOrFalse;
         }
     }
 

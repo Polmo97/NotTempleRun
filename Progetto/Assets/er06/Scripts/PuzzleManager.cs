@@ -25,7 +25,8 @@ public class PuzzleManager : MonoBehaviour
         conteggioPuzzle++;
         if (conteggioPuzzle == 4 && !risolto)
         {
-            Instantiate(chiave, spawnChiave.transform.position, spawnChiave.transform.rotation);
+            GameObject chiavecubo = Instantiate(chiave, spawnChiave.transform);
+            chiavecubo.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
             risolto = true;
             cassetto.SetBool("Apertura", true);
         }

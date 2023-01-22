@@ -3725,6 +3725,11 @@ PrefabInstance:
       objectReference: {fileID: 386946949063029653}
     - target: {fileID: 6759483569300406686, guid: 52f87534fdefc6b47aadeae3a66454d8,
         type: 3}
+      propertyPath: snapToFloorEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759483569300406686, guid: 52f87534fdefc6b47aadeae3a66454d8,
+        type: 3}
       propertyPath: cameraValidity.field
       value: 
       objectReference: {fileID: 8514653840699552185}
