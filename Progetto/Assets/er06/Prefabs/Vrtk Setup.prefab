@@ -97,7 +97,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6c5494d8a26dcec46a5ad2ad7b152e21, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2962,6 +2962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraRigs.TrackedAlias
       objectReference: {fileID: 0}
+    - target: {fileID: 1756652776302202, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3059,9 +3063,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.09
-  m_Height: 0
+  m_Height: 0.3
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.05}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8340498519263184198
 MonoBehaviour:
   m_ObjectHideFlags: 0
