@@ -18,22 +18,33 @@ namespace er06 {
             if (other.gameObject.CompareTag("Legno"))
             {
                 dentroFuoco = true;
-
             }
         }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.CompareTag("Legno"))
+            {
+                dentroFuoco = false;
+            }
+        }
+
         private void OnCollisionEnter(Collision collision)
         {
+            if (collision.gameObject.CompareTag("Stone"))
+            {
+                ContactPoint contact = collision.contacts[0];
+                Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+                Vector3 pos = contact.point;
+                Instantiate(particleEffect, pos, rot);
+            }
             if (dentroFuoco)
             {
                 if (collision.gameObject.CompareTag("Stone"))
                 {
                     counter++;
                     Debug.Log("CONTA" + counter);
-                    ContactPoint contact = collision.contacts[0];
-                    Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
-                    Vector3 pos = contact.point;
-                    Instantiate(particleEffect, pos, rot);
-                    if (counter >= 3)
+                    if (counter >= 1)
                     {
                         fire.SetActive(true);
                     }

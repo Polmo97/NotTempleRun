@@ -68,57 +68,67 @@ extern void SparoFreccia_Start_mEE50CAD136BBE94BCE3BDC07FE4253D7617B1F66 (void);
 extern void SparoFreccia_OnTriggerEnter_mC2E16E260B56E26716C34F02A8341B9EF36959BC (void);
 // 0x0000001C System.Void SparoFreccia::.ctor()
 extern void SparoFreccia__ctor_mF04DA02982C557303D262DBA10E036E39900D902 (void);
-// 0x0000001D System.Void er06.ChestController::OnTriggerEnter(UnityEngine.Collider)
+// 0x0000001D System.Void ViewController::Start()
+extern void ViewController_Start_m02C628A0266DD8B04EA3B9439E8C4BEC9B0E0403 (void);
+// 0x0000001E System.Void ViewController::OnTriggerEnter(UnityEngine.Collider)
+extern void ViewController_OnTriggerEnter_m937BDA33104D102EF91FA599A8B04152D1414289 (void);
+// 0x0000001F System.Void ViewController::OnTriggerExit(UnityEngine.Collider)
+extern void ViewController_OnTriggerExit_m92581E7ABDBDF1BDDE3F5D1CAAC5B7515A7AA11B (void);
+// 0x00000020 System.Void ViewController::.ctor()
+extern void ViewController__ctor_m8733B54770023070698C8F79B74B732BB8AD708A (void);
+// 0x00000021 System.Void er06.ChestController::OnTriggerEnter(UnityEngine.Collider)
 extern void ChestController_OnTriggerEnter_m501117100D53902BFE95BD9815D7E3102AD4F7FC (void);
-// 0x0000001E System.Void er06.ChestController::.ctor()
+// 0x00000022 System.Void er06.ChestController::.ctor()
 extern void ChestController__ctor_m313581D6E9C14000B720C6446383E09DE4A8C39B (void);
-// 0x0000001F System.Void er06.GameManager::Start()
+// 0x00000023 System.Void er06.GameManager::Start()
 extern void GameManager_Start_m575F31010237D0CB4CDB28478BFB265A3893F519 (void);
-// 0x00000020 System.Void er06.GameManager::Update()
+// 0x00000024 System.Void er06.GameManager::Update()
 extern void GameManager_Update_mF83D2A0105001F6635227982779205A90AD797F0 (void);
-// 0x00000021 System.Void er06.GameManager::.ctor()
+// 0x00000025 System.Void er06.GameManager::.ctor()
 extern void GameManager__ctor_mD2C98A9BC4A5F355FA58A58559A43CAA27A1BCE6 (void);
-// 0x00000022 System.Void er06.GameobjectDestroyer::Start()
+// 0x00000026 System.Void er06.GameobjectDestroyer::Start()
 extern void GameobjectDestroyer_Start_m86B141F88CB88275416D0A2E092D3F3872A96FB0 (void);
-// 0x00000023 System.Collections.IEnumerator er06.GameobjectDestroyer::Wait(System.Single)
+// 0x00000027 System.Collections.IEnumerator er06.GameobjectDestroyer::Wait(System.Single)
 extern void GameobjectDestroyer_Wait_mCA9EB728A77CA1DBF276E0D81EA4C16C53FE8298 (void);
-// 0x00000024 System.Void er06.GameobjectDestroyer::.ctor()
+// 0x00000028 System.Void er06.GameobjectDestroyer::.ctor()
 extern void GameobjectDestroyer__ctor_mFE5E92735EA52F7B3DF7C18E1D4D8DF8FE32C759 (void);
-// 0x00000025 System.Void er06.GameobjectDestroyer/<Wait>d__4::.ctor(System.Int32)
+// 0x00000029 System.Void er06.GameobjectDestroyer/<Wait>d__4::.ctor(System.Int32)
 extern void U3CWaitU3Ed__4__ctor_m97CA378BD8EA412355CE4FE3747C6816D96B4D34 (void);
-// 0x00000026 System.Void er06.GameobjectDestroyer/<Wait>d__4::System.IDisposable.Dispose()
+// 0x0000002A System.Void er06.GameobjectDestroyer/<Wait>d__4::System.IDisposable.Dispose()
 extern void U3CWaitU3Ed__4_System_IDisposable_Dispose_m26F0764D3EB8E022E6D9BACEA3B4614C64A494E0 (void);
-// 0x00000027 System.Boolean er06.GameobjectDestroyer/<Wait>d__4::MoveNext()
+// 0x0000002B System.Boolean er06.GameobjectDestroyer/<Wait>d__4::MoveNext()
 extern void U3CWaitU3Ed__4_MoveNext_mE351B6F0B9D531E5F17C3253BBA5A03B998F92BD (void);
-// 0x00000028 System.Object er06.GameobjectDestroyer/<Wait>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000002C System.Object er06.GameobjectDestroyer/<Wait>d__4::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CWaitU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1A3BCFC76A01C041061D37CBD3C57D567C847EE3 (void);
-// 0x00000029 System.Void er06.GameobjectDestroyer/<Wait>d__4::System.Collections.IEnumerator.Reset()
+// 0x0000002D System.Void er06.GameobjectDestroyer/<Wait>d__4::System.Collections.IEnumerator.Reset()
 extern void U3CWaitU3Ed__4_System_Collections_IEnumerator_Reset_m96E1E00D25A9A7C9770EABB707E5A3942F4307FF (void);
-// 0x0000002A System.Object er06.GameobjectDestroyer/<Wait>d__4::System.Collections.IEnumerator.get_Current()
+// 0x0000002E System.Object er06.GameobjectDestroyer/<Wait>d__4::System.Collections.IEnumerator.get_Current()
 extern void U3CWaitU3Ed__4_System_Collections_IEnumerator_get_Current_m62086808BEC2D2FDBECA1F2D3F155EF6A73E59CF (void);
-// 0x0000002B System.Void er06.StoneController::OnTriggerStay(UnityEngine.Collider)
+// 0x0000002F System.Void er06.StoneController::OnTriggerStay(UnityEngine.Collider)
 extern void StoneController_OnTriggerStay_m3CB82F09A8060F0175F5EE8982A704E753DD4857 (void);
-// 0x0000002C System.Void er06.StoneController::OnCollisionEnter(UnityEngine.Collision)
+// 0x00000030 System.Void er06.StoneController::OnTriggerExit(UnityEngine.Collider)
+extern void StoneController_OnTriggerExit_m6FDC2C61727A3D436567326C25BC95AA28F8A88B (void);
+// 0x00000031 System.Void er06.StoneController::OnCollisionEnter(UnityEngine.Collision)
 extern void StoneController_OnCollisionEnter_m115A6A561CC666DDB5E7F6075AF567D289593C21 (void);
-// 0x0000002D System.Void er06.StoneController::.ctor()
+// 0x00000032 System.Void er06.StoneController::.ctor()
 extern void StoneController__ctor_m335F2D4FBEDC527D8788157CD49E4B6ED82A39B9 (void);
-// 0x0000002E System.Void er06.Torcia::Start()
+// 0x00000033 System.Void er06.Torcia::Start()
 extern void Torcia_Start_mC37F361CD96EFE561E3DEFFAA105DDD34C95B9DA (void);
-// 0x0000002F System.Void er06.Torcia::Update()
+// 0x00000034 System.Void er06.Torcia::Update()
 extern void Torcia_Update_m8471854DDAEB2A1C2D7ABD179FD5C3997E22A212 (void);
-// 0x00000030 System.Void er06.Torcia::.ctor()
+// 0x00000035 System.Void er06.Torcia::.ctor()
 extern void Torcia__ctor_mB7D87E6FD658848C4DC11DC875758704C615D2B4 (void);
-// 0x00000031 System.Void er06.TorciaController::Start()
+// 0x00000036 System.Void er06.TorciaController::Start()
 extern void TorciaController_Start_mB35AEB31412807EE57FBE728F4E32F3AAAB976D3 (void);
-// 0x00000032 System.Void er06.TorciaController::OnTriggerStay(UnityEngine.Collider)
+// 0x00000037 System.Void er06.TorciaController::OnTriggerStay(UnityEngine.Collider)
 extern void TorciaController_OnTriggerStay_mB53AACC0A5A199868688495E6D51EE57408E14A9 (void);
-// 0x00000033 System.Void er06.TorciaController::.ctor()
+// 0x00000038 System.Void er06.TorciaController::.ctor()
 extern void TorciaController__ctor_m339912F480CA403366290171337A13BBFF9B08A8 (void);
-// 0x00000034 System.Void er06.VasoController::OnCollisionEnter(UnityEngine.Collision)
+// 0x00000039 System.Void er06.VasoController::OnCollisionEnter(UnityEngine.Collision)
 extern void VasoController_OnCollisionEnter_m966B502B876AC747627816B744F26A29B19B924F (void);
-// 0x00000035 System.Void er06.VasoController::.ctor()
+// 0x0000003A System.Void er06.VasoController::.ctor()
 extern void VasoController__ctor_m0CA3B9AAD80A721FE88CC9A7515C357D8E0818C0 (void);
-static Il2CppMethodPointer s_methodPointers[53] = 
+static Il2CppMethodPointer s_methodPointers[58] = 
 {
 	Detector_OnTriggerEnter_m3B76D38414E71FB7DFE758E72CE5F793AD70A6C1,
 	Detector_OnTriggerExit_m67D78ACF7FEBDF34010BF7105B38FFF87927ADEA,
@@ -148,6 +158,10 @@ static Il2CppMethodPointer s_methodPointers[53] =
 	SparoFreccia_Start_mEE50CAD136BBE94BCE3BDC07FE4253D7617B1F66,
 	SparoFreccia_OnTriggerEnter_mC2E16E260B56E26716C34F02A8341B9EF36959BC,
 	SparoFreccia__ctor_mF04DA02982C557303D262DBA10E036E39900D902,
+	ViewController_Start_m02C628A0266DD8B04EA3B9439E8C4BEC9B0E0403,
+	ViewController_OnTriggerEnter_m937BDA33104D102EF91FA599A8B04152D1414289,
+	ViewController_OnTriggerExit_m92581E7ABDBDF1BDDE3F5D1CAAC5B7515A7AA11B,
+	ViewController__ctor_m8733B54770023070698C8F79B74B732BB8AD708A,
 	ChestController_OnTriggerEnter_m501117100D53902BFE95BD9815D7E3102AD4F7FC,
 	ChestController__ctor_m313581D6E9C14000B720C6446383E09DE4A8C39B,
 	GameManager_Start_m575F31010237D0CB4CDB28478BFB265A3893F519,
@@ -163,6 +177,7 @@ static Il2CppMethodPointer s_methodPointers[53] =
 	U3CWaitU3Ed__4_System_Collections_IEnumerator_Reset_m96E1E00D25A9A7C9770EABB707E5A3942F4307FF,
 	U3CWaitU3Ed__4_System_Collections_IEnumerator_get_Current_m62086808BEC2D2FDBECA1F2D3F155EF6A73E59CF,
 	StoneController_OnTriggerStay_m3CB82F09A8060F0175F5EE8982A704E753DD4857,
+	StoneController_OnTriggerExit_m6FDC2C61727A3D436567326C25BC95AA28F8A88B,
 	StoneController_OnCollisionEnter_m115A6A561CC666DDB5E7F6075AF567D289593C21,
 	StoneController__ctor_m335F2D4FBEDC527D8788157CD49E4B6ED82A39B9,
 	Torcia_Start_mC37F361CD96EFE561E3DEFFAA105DDD34C95B9DA,
@@ -174,7 +189,7 @@ static Il2CppMethodPointer s_methodPointers[53] =
 	VasoController_OnCollisionEnter_m966B502B876AC747627816B744F26A29B19B924F,
 	VasoController__ctor_m0CA3B9AAD80A721FE88CC9A7515C357D8E0818C0,
 };
-static const int32_t s_InvokerIndices[53] = 
+static const int32_t s_InvokerIndices[58] = 
 {
 	5289,
 	5289,
@@ -202,6 +217,10 @@ static const int32_t s_InvokerIndices[53] =
 	6669,
 	6669,
 	6669,
+	5289,
+	6669,
+	6669,
+	5289,
 	5289,
 	6669,
 	5289,
@@ -220,6 +239,7 @@ static const int32_t s_InvokerIndices[53] =
 	6550,
 	5289,
 	5289,
+	5289,
 	6669,
 	6669,
 	6669,
@@ -234,7 +254,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	53,
+	58,
 	s_methodPointers,
 	0,
 	NULL,
