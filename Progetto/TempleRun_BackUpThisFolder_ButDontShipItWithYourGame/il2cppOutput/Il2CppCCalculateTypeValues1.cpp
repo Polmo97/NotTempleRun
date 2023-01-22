@@ -10011,6 +10011,8 @@ struct VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C  : public MonoBe
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___particleEffect_4;
 	// UnityEngine.GameObject er06.VasoController::oggettoNascosto
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___oggettoNascosto_5;
+	// System.Boolean er06.VasoController::grabbed
+	bool ___grabbed_6;
 };
 
 // ViewController

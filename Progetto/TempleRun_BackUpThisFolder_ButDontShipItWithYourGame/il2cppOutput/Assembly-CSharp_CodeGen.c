@@ -126,9 +126,11 @@ extern void TorciaController_OnTriggerStay_mB53AACC0A5A199868688495E6D51EE57408E
 extern void TorciaController__ctor_m339912F480CA403366290171337A13BBFF9B08A8 (void);
 // 0x00000039 System.Void er06.VasoController::OnCollisionEnter(UnityEngine.Collision)
 extern void VasoController_OnCollisionEnter_m966B502B876AC747627816B744F26A29B19B924F (void);
-// 0x0000003A System.Void er06.VasoController::.ctor()
+// 0x0000003A System.Void er06.VasoController::GrabbedTrue()
+extern void VasoController_GrabbedTrue_mAF8B7BDF1E25776AC844CACCFA98DC038DD5C836 (void);
+// 0x0000003B System.Void er06.VasoController::.ctor()
 extern void VasoController__ctor_m0CA3B9AAD80A721FE88CC9A7515C357D8E0818C0 (void);
-static Il2CppMethodPointer s_methodPointers[58] = 
+static Il2CppMethodPointer s_methodPointers[59] = 
 {
 	Detector_OnTriggerEnter_m3B76D38414E71FB7DFE758E72CE5F793AD70A6C1,
 	Detector_OnTriggerExit_m67D78ACF7FEBDF34010BF7105B38FFF87927ADEA,
@@ -187,9 +189,10 @@ static Il2CppMethodPointer s_methodPointers[58] =
 	TorciaController_OnTriggerStay_mB53AACC0A5A199868688495E6D51EE57408E14A9,
 	TorciaController__ctor_m339912F480CA403366290171337A13BBFF9B08A8,
 	VasoController_OnCollisionEnter_m966B502B876AC747627816B744F26A29B19B924F,
+	VasoController_GrabbedTrue_mAF8B7BDF1E25776AC844CACCFA98DC038DD5C836,
 	VasoController__ctor_m0CA3B9AAD80A721FE88CC9A7515C357D8E0818C0,
 };
-static const int32_t s_InvokerIndices[58] = 
+static const int32_t s_InvokerIndices[59] = 
 {
 	5289,
 	5289,
@@ -249,12 +252,13 @@ static const int32_t s_InvokerIndices[58] =
 	6669,
 	5289,
 	6669,
+	6669,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	58,
+	59,
 	s_methodPointers,
 	0,
 	NULL,

@@ -1184,6 +1184,8 @@ struct VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C  : public MonoBe
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___particleEffect_4;
 	// UnityEngine.GameObject er06.VasoController::oggettoNascosto
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___oggettoNascosto_5;
+	// System.Boolean er06.VasoController::grabbed
+	bool ___grabbed_6;
 };
 
 // ViewController
@@ -1812,9 +1814,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6073[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6075[2] = 
 {
 	static_cast<int32_t>(offsetof(TorciaController_tB1CF9527C2180436911F8EBA23C3513A19F8457F, ___particleEffect_4)),static_cast<int32_t>(offsetof(TorciaController_tB1CF9527C2180436911F8EBA23C3513A19F8457F, ___fuocoAssi_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6076[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6076[3] = 
 {
-	static_cast<int32_t>(offsetof(VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C, ___particleEffect_4)),static_cast<int32_t>(offsetof(VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C, ___oggettoNascosto_5)),};
+	static_cast<int32_t>(offsetof(VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C, ___particleEffect_4)),static_cast<int32_t>(offsetof(VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C, ___oggettoNascosto_5)),static_cast<int32_t>(offsetof(VasoController_t54B3AFCD36E259122AF8EE11177C521B6F500A8C, ___grabbed_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6080[2] = 
 {
 	static_cast<int32_t>(offsetof(PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A, ___PoseNames_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A, ___Poses_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
