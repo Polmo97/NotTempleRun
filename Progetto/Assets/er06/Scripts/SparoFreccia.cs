@@ -8,14 +8,19 @@ namespace er06 {
     {
         [SerializeField] GameObject freccia;
         // Start is called before the first frame update
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
-            if (other.gameObject.tag == "Player")
-            {
+            Debug.Log("wewuehwuhwu" + other.gameObject.tag);
+            if (other.gameObject.tag == "Player"){
+
                 freccia.SetActive(true);
             }
         }
     }
 
-
+        //    private void OnTriggerStay(Collider other)
+        //{
+            
+        //    
+        //}
 }
