@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace er06 {
+namespace er06
+{
     public class PuzzleManager : MonoBehaviour
     {
         [SerializeField] private Animator cassetto;
@@ -10,13 +11,14 @@ namespace er06 {
         [SerializeField] private GameObject spawnChiave;
         private int conteggioPuzzle = 0;
         private bool risolto = false;
-        // Start is called before the first frame update
+
         public void PezzoGiusto()
         {
             conteggioPuzzle++;
             if (conteggioPuzzle == 4 && !risolto)
             {
-                Instantiate(chiave, spawnChiave.transform.position, spawnChiave.transform.rotation);
+                GameObject chiavecubo = Instantiate(chiave, spawnChiave.transform);
+                chiavecubo.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
                 risolto = true;
                 cassetto.SetBool("Apertura", true);
             }

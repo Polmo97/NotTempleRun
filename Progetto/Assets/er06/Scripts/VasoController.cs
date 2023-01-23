@@ -7,15 +7,22 @@ namespace er06 {
     {
         [SerializeField] GameObject particleEffect;
         [SerializeField] GameObject oggettoNascosto;
+        private bool grabbed=false;
         // Start is called before the first frame update
 
         private void OnCollisionEnter(Collision collision)
         {
-            oggettoNascosto.transform.position = transform.position;
-            Instantiate(particleEffect, this.transform.position, particleEffect.transform.rotation);
-            oggettoNascosto.SetActive(true);
-            this.gameObject.SetActive(false);
+            if (grabbed == true)
+            {
+                oggettoNascosto.transform.position = transform.position;
+                Instantiate(particleEffect, this.transform.position, particleEffect.transform.rotation);
+                oggettoNascosto.SetActive(true);
+                this.gameObject.SetActive(false);
+            }
+        }
 
+        public void GrabbedStatus(bool trueOrFalse) {
+            grabbed = trueOrFalse;
         }
     }
 

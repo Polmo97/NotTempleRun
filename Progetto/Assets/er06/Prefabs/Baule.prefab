@@ -391,6 +391,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 3738151611583240870}
+        m_TargetAssemblyTypeName: Tilia.Interactions.Controllables.Driver.DriveFacade`2[[Tilia.Interactions.Controllables.AngularDriver.AngularDrive,
+          Tilia.Interactions.Controllables.Unity.Runtime
+        m_MethodName: set_MoveToTargetValue
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &6562366679459061497
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,6 +458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: driveSpeed
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220336169150892439, guid: 345900e9a5776bb49a23e6dda2bc42e6,
+        type: 3}
+      propertyPath: targetValue
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7220336169150892439, guid: 345900e9a5776bb49a23e6dda2bc42e6,
         type: 3}
