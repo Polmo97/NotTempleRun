@@ -2,37 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuzzleManager : MonoBehaviour
-{
-    [SerializeField] private Animator cassetto;
-    [SerializeField] private GameObject chiave;
-    [SerializeField] private GameObject spawnChiave;
-    private int conteggioPuzzle = 0;
-    private bool risolto = false;
-    // Start is called before the first frame update
-    void Start()
+namespace er06 {
+    public class PuzzleManager : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void PezzoGiusto() {
-        conteggioPuzzle++;
-        if (conteggioPuzzle == 4 && !risolto)
+        [SerializeField] private Animator cassetto;
+        [SerializeField] private GameObject chiave;
+        [SerializeField] private GameObject spawnChiave;
+        private int conteggioPuzzle = 0;
+        private bool risolto = false;
+        // Start is called before the first frame update
+        public void PezzoGiusto()
         {
-            Instantiate(chiave, spawnChiave.transform.position, spawnChiave.transform.rotation);
-            risolto = true;
-            cassetto.SetBool("Apertura", true);
+            conteggioPuzzle++;
+            if (conteggioPuzzle == 4 && !risolto)
+            {
+                Instantiate(chiave, spawnChiave.transform.position, spawnChiave.transform.rotation);
+                risolto = true;
+                cassetto.SetBool("Apertura", true);
+            }
+        }
+
+        public void PezzoTolto()
+        {
+            conteggioPuzzle--;
+
         }
     }
 
-    public void PezzoTolto() {
-        conteggioPuzzle--;
 
-    }
 }

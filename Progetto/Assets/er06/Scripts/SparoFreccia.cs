@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SparoFreccia : MonoBehaviour
-{
-    [SerializeField] GameObject freccia;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+namespace er06 {
 
-    private void OnTriggerEnter(Collider other)
+    public class SparoFreccia : MonoBehaviour
     {
-        if(other.gameObject.tag == "Player")
+        [SerializeField] GameObject freccia;
+        // Start is called before the first frame update
+        private void OnTriggerEnter(Collider other)
         {
-            freccia.SetActive(true);
+            if (other.gameObject.tag == "Player")
+            {
+                freccia.SetActive(true);
+            }
         }
     }
+
+
 }

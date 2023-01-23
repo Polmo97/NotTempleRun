@@ -2,23 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Detector : MonoBehaviour
-{
-    [SerializeField] private string nomePuzzle;
-    [SerializeField] private PuzzleManager puzzle;
 
-    private void OnTriggerEnter(Collider other)
+namespace er06 {
+    public class Detector : MonoBehaviour
     {
-        if (other.gameObject.name == nomePuzzle) {
-            puzzle.PezzoGiusto();
-        }
-    }
+        [SerializeField] private string nomePuzzle;
+        [SerializeField] private PuzzleManager puzzle;
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.name == nomePuzzle)
+        private void OnTriggerEnter(Collider other)
         {
-            puzzle.PezzoTolto();
+            if (other.gameObject.name == nomePuzzle)
+            {
+                puzzle.PezzoGiusto();
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.name == nomePuzzle)
+            {
+                puzzle.PezzoTolto();
+            }
         }
     }
 }
+
