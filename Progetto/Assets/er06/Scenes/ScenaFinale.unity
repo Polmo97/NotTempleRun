@@ -1658,7 +1658,7 @@ PrefabInstance:
     - target: {fileID: 4855932565011762757, guid: 81087617cf71c4a4d9e547d716b7b4f0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5199524913206482175, guid: 81087617cf71c4a4d9e547d716b7b4f0,
         type: 3}
@@ -4250,6 +4250,11 @@ PrefabInstance:
       propertyPath: Snapped.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5115488790506099599, guid: 2995f2d81e3b89d4d939258b93cf3706,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2668dfb8bb471004693ec0cdfb9015b6, type: 2}
     - target: {fileID: 6866018456786239763, guid: 2995f2d81e3b89d4d939258b93cf3706,
         type: 3}
       propertyPath: m_IsActive
