@@ -480,6 +480,8 @@ struct MeasureFunction_t60EBED1328F5328D4FA7E26335967E59E73B4D09;
 struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
 // UnityEngine.MeshCollider
 struct MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // UnityEngineInternal.Input.NativeUpdateCallback
@@ -504,10 +506,10 @@ struct PointerConfigurator_t878906B57B5C642DEF6DF3BBD475EDBF58E50AD6;
 struct PointerFacade_t488DE60CD14D6261F268F3C5ADFCF828549C622D;
 // Zinnia.Cast.PointsCast
 struct PointsCast_tE9D47A9F7EC96A45646CB019EC54E6F882C767C0;
-// PortaManager
-struct PortaManager_t95D135F583FA9F4C85AB256E75D90AEC73F0B3B0;
-// PuzzleManager
-struct PuzzleManager_t3D8A589EB9E0B7EE52D07774FBB8938039A362B7;
+// er06.PortaManager
+struct PortaManager_t799248737A6001FBF79EAEE034B453811CA18A61;
+// er06.PuzzleManager
+struct PuzzleManager_t204955B93F73221B0778D3DDC7D3F1A9C6DF673D;
 // UnityEngine.InputSystem.Controls.QuaternionControl
 struct QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1;
 // UnityEngine.RectOffset
@@ -8850,6 +8852,13 @@ struct ActivationValidator_t30A59C3AC5E48F912B3EA45C33EA246D99F7DEDD  : public M
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___invalidSnapZoneCollisions_11;
 };
 
+// er06.ActiveMeshRenderer
+struct ActiveMeshRenderer_t7932B63AEA9D776A86C32A0BFAD671EF3C484FD6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.MeshRenderer er06.ActiveMeshRenderer::mesh
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___mesh_4;
+};
+
 // Tilia.Interactions.Interactables.Interactors.ComponentTags.AllowInteractorCollisionTag
 struct AllowInteractorCollisionTag_tBDFCA85B0CE351CF37ABA952EE35B32E8DF13E45  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -8875,14 +8884,14 @@ struct BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D  : public Mono
 {
 };
 
-// Biglia
-struct Biglia_tF7D72AE00BBDD4B9C2C7EEB93363EBA2A1D87D27  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.Biglia
+struct Biglia_tA2760CB8844B85D6C9EBA4312DBA2AF22B346E7E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.AudioSource Biglia::audioUrto
+	// UnityEngine.AudioSource er06.Biglia::audioUrto
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioUrto_4;
-	// UnityEngine.AudioSource Biglia::audioRotolo
+	// UnityEngine.AudioSource er06.Biglia::audioRotolo
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioRotolo_5;
-	// UnityEngine.Rigidbody Biglia::_rigidbody
+	// UnityEngine.Rigidbody er06.Biglia::_rigidbody
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rigidbody_6;
 };
 
@@ -8912,22 +8921,22 @@ struct ChestController_tE108A8EC9D6FDCCA9D64EC33FA7E954D948E069A  : public MonoB
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnChestOpen_4;
 };
 
-// Detector
-struct Detector_t4563441D0E64FB255B421A325E6916CB73C0A323  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.Detector
+struct Detector_t8A96BE581C1F515FC05BC3B2D047FCEA1E08FE22  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// System.String Detector::nomePuzzle
+	// System.String er06.Detector::nomePuzzle
 	String_t* ___nomePuzzle_4;
-	// PuzzleManager Detector::puzzle
-	PuzzleManager_t3D8A589EB9E0B7EE52D07774FBB8938039A362B7* ___puzzle_5;
+	// er06.PuzzleManager er06.Detector::puzzle
+	PuzzleManager_t204955B93F73221B0778D3DDC7D3F1A9C6DF673D* ___puzzle_5;
 };
 
-// DetectorPorta
-struct DetectorPorta_t5C29D918E7E00EE487E110B4EEA9A21AFD700710  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.DetectorPorta
+struct DetectorPorta_t983F75BC3BB83531E85B34901A29F8FD8D7B542C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// System.String DetectorPorta::nomePuzzle
+	// System.String er06.DetectorPorta::nomePuzzle
 	String_t* ___nomePuzzle_4;
-	// PortaManager DetectorPorta::puzzle
-	PortaManager_t95D135F583FA9F4C85AB256E75D90AEC73F0B3B0* ___puzzle_5;
+	// er06.PortaManager er06.DetectorPorta::puzzle
+	PortaManager_t799248737A6001FBF79EAEE034B453811CA18A61* ___puzzle_5;
 };
 
 // Zinnia.Tracking.CameraRig.DeviceDetailsRecord
@@ -8973,11 +8982,6 @@ struct Finger_tA8A8FFB0CD414554C8E80D40F56E4ADF517ECCCD  : public MonoBehaviour_
 	float ___forceTransitionThreshold_12;
 	// System.Single Tilia.Visuals.BasicHand.Finger::<CurrentCurlValue>k__BackingField
 	float ___U3CCurrentCurlValueU3Ek__BackingField_13;
-};
-
-// er06.GameManager
-struct GameManager_tF8B78E39FAB56607662FECD4F0CF04E42562403A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
 };
 
 // er06.GameobjectDestroyer
@@ -9234,14 +9238,14 @@ struct IgnoreInteractorOnContainingTransformTag_tC55E26A4C9946047DE6B06D13C277E4
 {
 };
 
-// IngranaggiAnimator
-struct IngranaggiAnimator_tFEDB3AAA750C5C210B1E967815E2BE4B9F7A5284  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.IngranaggiAnimator
+struct IngranaggiAnimator_tF5E0EE4C2FC64066C1C936B0B648243FD5E459C4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.Animator IngranaggiAnimator::obj
+	// UnityEngine.Animator er06.IngranaggiAnimator::obj
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___obj_4;
-	// System.Boolean IngranaggiAnimator::ingranaggi
+	// System.Boolean er06.IngranaggiAnimator::ingranaggi
 	bool ___ingranaggi_5;
-	// System.Single IngranaggiAnimator::offset
+	// System.Single er06.IngranaggiAnimator::offset
 	float ___offset_6;
 };
 
@@ -9481,19 +9485,32 @@ struct LinearDriveTag_t2AEF90E34B69AC7DB771277B84FFCA144FAA689E  : public MonoBe
 {
 };
 
-// MinigiocoController
-struct MinigiocoController_tDE7B55BB45F8D156B23CD90E6DD21CB9DC8E9061  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.Mattone
+struct Mattone_t08BDE157A2A1443BAEB55C58A89EEE7AC7C85D01  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject MinigiocoController::jointLeva
+	// UnityEngine.AudioSource er06.Mattone::audioUrto
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioUrto_4;
+};
+
+// er06.MinigiocoController
+struct MinigiocoController_tBBAD663AF2B6356AE243C5103F003A5AD406A658  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject er06.MinigiocoController::jointLeva
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___jointLeva_4;
-	// System.Collections.Generic.List`1<UnityEngine.GameObject> MinigiocoController::piattaformeRotanti
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> er06.MinigiocoController::piattaformeRotanti
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___piattaformeRotanti_5;
-	// UnityEngine.Animator MinigiocoController::animatorIngranaggi
+	// UnityEngine.Animator er06.MinigiocoController::animatorIngranaggi
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animatorIngranaggi_6;
-	// System.Single MinigiocoController::angoloLimite
+	// System.Single er06.MinigiocoController::angoloLimite
 	float ___angoloLimite_7;
-	// System.Single MinigiocoController::angoloJoint
-	float ___angoloJoint_8;
+	// UnityEngine.AudioSource er06.MinigiocoController::rumoreIngranaggio
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___rumoreIngranaggio_8;
+	// System.Boolean er06.MinigiocoController::invertito
+	bool ___invertito_9;
+	// System.Single er06.MinigiocoController::speed
+	float ___speed_10;
+	// System.Single er06.MinigiocoController::angoloJoint
+	float ___angoloJoint_11;
 };
 
 // Zinnia.Data.Collection.List.ObservableList
@@ -9506,18 +9523,18 @@ struct OculusLoader_tA386B9AA0786D042EA272EDF385F96C0AD1A56BB  : public XRLoader
 {
 };
 
-// PallinaController
-struct PallinaController_tCFC57A2E230A0A359B9CC3F98BA85F7FD56C5EC1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.PallinaController
+struct PallinaController_tA7BFF79CBCE2F3104838B2E6D2E9F5872FCFAD79  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.Vector3 PallinaController::posizioneIniziale
+	// UnityEngine.Vector3 er06.PallinaController::posizioneIniziale
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___posizioneIniziale_4;
-	// UnityEngine.GameObject PallinaController::spawnChiaveLocation
+	// UnityEngine.GameObject er06.PallinaController::spawnChiaveLocation
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnChiaveLocation_5;
-	// UnityEngine.GameObject PallinaController::chiave
+	// UnityEngine.GameObject er06.PallinaController::chiave
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___chiave_6;
-	// UnityEngine.Rigidbody PallinaController::rigidbody
+	// UnityEngine.Rigidbody er06.PallinaController::rigidbody
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rigidbody_7;
-	// UnityEngine.ConstantForce PallinaController::constantForce
+	// UnityEngine.ConstantForce er06.PallinaController::constantForce
 	ConstantForce_t741C848CC18BD97BBC0C8BC8D9FC9837A10565AB* ___constantForce_8;
 };
 
@@ -9575,33 +9592,33 @@ struct PointerFacade_t488DE60CD14D6261F268F3C5ADFCF828549C622D  : public MonoBeh
 	PointerConfigurator_t878906B57B5C642DEF6DF3BBD475EDBF58E50AD6* ___configuration_18;
 };
 
-// PortaManager
-struct PortaManager_t95D135F583FA9F4C85AB256E75D90AEC73F0B3B0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.PortaManager
+struct PortaManager_t799248737A6001FBF79EAEE034B453811CA18A61  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.Animator PortaManager::portaAperta
+	// UnityEngine.Animator er06.PortaManager::portaAperta
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___portaAperta_4;
-	// UnityEngine.AudioSource PortaManager::suonoApertua
+	// UnityEngine.AudioSource er06.PortaManager::suonoApertua
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___suonoApertua_5;
-	// UnityEngine.GameObject PortaManager::teleportNuovaScena
+	// UnityEngine.GameObject er06.PortaManager::teleportNuovaScena
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___teleportNuovaScena_6;
-	// System.Int32 PortaManager::conteggioPuzzle
+	// System.Int32 er06.PortaManager::conteggioPuzzle
 	int32_t ___conteggioPuzzle_7;
-	// System.Boolean PortaManager::risolto
+	// System.Boolean er06.PortaManager::risolto
 	bool ___risolto_8;
 };
 
-// PuzzleManager
-struct PuzzleManager_t3D8A589EB9E0B7EE52D07774FBB8938039A362B7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.PuzzleManager
+struct PuzzleManager_t204955B93F73221B0778D3DDC7D3F1A9C6DF673D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.Animator PuzzleManager::cassetto
+	// UnityEngine.Animator er06.PuzzleManager::cassetto
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___cassetto_4;
-	// UnityEngine.GameObject PuzzleManager::chiave
+	// UnityEngine.GameObject er06.PuzzleManager::chiave
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___chiave_5;
-	// UnityEngine.GameObject PuzzleManager::spawnChiave
+	// UnityEngine.GameObject er06.PuzzleManager::spawnChiave
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnChiave_6;
-	// System.Int32 PuzzleManager::conteggioPuzzle
+	// System.Int32 er06.PuzzleManager::conteggioPuzzle
 	int32_t ___conteggioPuzzle_7;
-	// System.Boolean PuzzleManager::risolto
+	// System.Boolean er06.PuzzleManager::risolto
 	bool ___risolto_8;
 };
 
@@ -9696,10 +9713,10 @@ struct SnapZoneManager_tDA9AF25C18D7F92AEF80216B66DE1144D4807D9D  : public MonoB
 {
 };
 
-// SparoFreccia
-struct SparoFreccia_t171AEC0D82FEBA745CBA17FAF04762D6C0A24E70  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// er06.SparoFreccia
+struct SparoFreccia_t6ACF4DE867596EA965AFD8A993E19186DB4620E3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject SparoFreccia::freccia
+	// UnityEngine.GameObject er06.SparoFreccia::freccia
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___freccia_4;
 };
 
@@ -9712,8 +9729,10 @@ struct StoneController_t797552F4C8C17B54A080EF5B5DA96F9856299D64  : public MonoB
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___particleEffect_5;
 	// UnityEngine.GameObject er06.StoneController::fire
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fire_6;
+	// UnityEngine.AudioSource er06.StoneController::tocco
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___tocco_7;
 	// System.Boolean er06.StoneController::dentroFuoco
-	bool ___dentroFuoco_7;
+	bool ___dentroFuoco_8;
 };
 
 // Tilia.Locomotors.Teleporter.TeleporterConfigurator
@@ -9791,11 +9810,6 @@ struct ThrowStub_t9161280E38728A40D9B1A975AEE62E89C379E400  : public ObjectDispo
 
 // UnityEngine.Tilemaps.Tilemap
 struct Tilemap_t18C4166D0AC702D5BFC0C411FA73C4B61D9D1751  : public GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B
-{
-};
-
-// er06.Torcia
-struct Torcia_t53EB26A76791A9DE566C65AF6FD17CB8AF3D70C8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 
@@ -14040,6 +14054,10 @@ struct SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313_StaticFields
 
 // Tilia.Interactions.SnapZone.ActivationValidator
 
+// er06.ActiveMeshRenderer
+
+// er06.ActiveMeshRenderer
+
 // Tilia.Interactions.Interactables.Interactors.ComponentTags.AllowInteractorCollisionTag
 
 // Tilia.Interactions.Interactables.Interactors.ComponentTags.AllowInteractorCollisionTag
@@ -14060,9 +14078,9 @@ struct SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313_StaticFields
 
 // UnityEngine.Experimental.XR.Interaction.BasePoseProvider
 
-// Biglia
+// er06.Biglia
 
-// Biglia
+// er06.Biglia
 
 // UnityEditor.XR.LegacyInputHelpers.CameraOffset
 struct CameraOffset_tACDA12C380E214B21482EB3F984FA83EA07B1E68_StaticFields
@@ -14077,13 +14095,13 @@ struct CameraOffset_tACDA12C380E214B21482EB3F984FA83EA07B1E68_StaticFields
 
 // er06.ChestController
 
-// Detector
+// er06.Detector
 
-// Detector
+// er06.Detector
 
-// DetectorPorta
+// er06.DetectorPorta
 
-// DetectorPorta
+// er06.DetectorPorta
 
 // Zinnia.Tracking.CameraRig.DeviceDetailsRecord
 
@@ -14096,10 +14114,6 @@ struct CameraOffset_tACDA12C380E214B21482EB3F984FA83EA07B1E68_StaticFields
 // Tilia.Visuals.BasicHand.Finger
 
 // Tilia.Visuals.BasicHand.Finger
-
-// er06.GameManager
-
-// er06.GameManager
 
 // er06.GameobjectDestroyer
 
@@ -14157,9 +14171,9 @@ struct CameraOffset_tACDA12C380E214B21482EB3F984FA83EA07B1E68_StaticFields
 
 // Tilia.Interactions.Interactables.Interactors.ComponentTags.IgnoreInteractorOnContainingTransformTag
 
-// IngranaggiAnimator
+// er06.IngranaggiAnimator
 
-// IngranaggiAnimator
+// er06.IngranaggiAnimator
 
 // Tilia.Interactions.Interactables.Interactables.InteractableActionReceiverConfigurator
 
@@ -14222,9 +14236,13 @@ struct InteractableGrabber_t436D28D0A2F97DA40E169AFC3F25256564499FA7_StaticField
 
 // Tilia.Interactions.Controllables.LinearDriver.LinearDriveTag
 
-// MinigiocoController
+// er06.Mattone
 
-// MinigiocoController
+// er06.Mattone
+
+// er06.MinigiocoController
+
+// er06.MinigiocoController
 
 // Zinnia.Data.Collection.List.ObservableList
 
@@ -14241,9 +14259,9 @@ struct OculusLoader_tA386B9AA0786D042EA272EDF385F96C0AD1A56BB_StaticFields
 
 // Unity.XR.Oculus.OculusLoader
 
-// PallinaController
+// er06.PallinaController
 
-// PallinaController
+// er06.PallinaController
 
 // Tilia.Indicators.ObjectPointers.PointerConfigurator
 
@@ -14253,13 +14271,13 @@ struct OculusLoader_tA386B9AA0786D042EA272EDF385F96C0AD1A56BB_StaticFields
 
 // Tilia.Indicators.ObjectPointers.PointerFacade
 
-// PortaManager
+// er06.PortaManager
 
-// PortaManager
+// er06.PortaManager
 
-// PuzzleManager
+// er06.PuzzleManager
 
-// PuzzleManager
+// er06.PuzzleManager
 
 // Zinnia.Rule.Rule
 
@@ -14281,9 +14299,9 @@ struct OculusLoader_tA386B9AA0786D042EA272EDF385F96C0AD1A56BB_StaticFields
 
 // Tilia.Interactions.SnapZone.SnapZoneManager
 
-// SparoFreccia
+// er06.SparoFreccia
 
-// SparoFreccia
+// er06.SparoFreccia
 
 // er06.StoneController
 
@@ -14304,10 +14322,6 @@ struct OculusLoader_tA386B9AA0786D042EA272EDF385F96C0AD1A56BB_StaticFields
 // UnityEngine.Tilemaps.Tilemap
 
 // UnityEngine.Tilemaps.Tilemap
-
-// er06.Torcia
-
-// er06.Torcia
 
 // er06.TorciaController
 
@@ -15948,37 +15962,37 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize6049 = { sizeof(XRDevice_tD0
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6050;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6050 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6051;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6051 = { sizeof(Biglia_tF7D72AE00BBDD4B9C2C7EEB93363EBA2A1D87D27), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6051 = { sizeof(ViewController_tCCDDA03F323E3B62DC2B5645DD974EA5F1C4AFEE), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6052;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6052 = { sizeof(Detector_t4563441D0E64FB255B421A325E6916CB73C0A323), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6052 = { sizeof(ActiveMeshRenderer_t7932B63AEA9D776A86C32A0BFAD671EF3C484FD6), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6053;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6053 = { sizeof(DetectorPorta_t5C29D918E7E00EE487E110B4EEA9A21AFD700710), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6053 = { sizeof(Biglia_tA2760CB8844B85D6C9EBA4312DBA2AF22B346E7E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6054;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6054 = { sizeof(IngranaggiAnimator_tFEDB3AAA750C5C210B1E967815E2BE4B9F7A5284), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6054 = { sizeof(ChestController_tE108A8EC9D6FDCCA9D64EC33FA7E954D948E069A), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6055;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6055 = { sizeof(MinigiocoController_tDE7B55BB45F8D156B23CD90E6DD21CB9DC8E9061), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6055 = { sizeof(Detector_t8A96BE581C1F515FC05BC3B2D047FCEA1E08FE22), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6056;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6056 = { sizeof(PallinaController_tCFC57A2E230A0A359B9CC3F98BA85F7FD56C5EC1), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6056 = { sizeof(DetectorPorta_t983F75BC3BB83531E85B34901A29F8FD8D7B542C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6057;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6057 = { sizeof(PortaManager_t95D135F583FA9F4C85AB256E75D90AEC73F0B3B0), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6057 = { sizeof(U3CWaitU3Ed__4_tC5E37778227C10BC29E3B2208955AD7ECD06FA6C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6058;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6058 = { sizeof(PuzzleManager_t3D8A589EB9E0B7EE52D07774FBB8938039A362B7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6058 = { sizeof(GameobjectDestroyer_t9985B863119EB57DD1AF331889316E5E749862F5), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6059;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6059 = { sizeof(SparoFreccia_t171AEC0D82FEBA745CBA17FAF04762D6C0A24E70), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6059 = { sizeof(IngranaggiAnimator_tF5E0EE4C2FC64066C1C936B0B648243FD5E459C4), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6060;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6060 = { sizeof(ViewController_tCCDDA03F323E3B62DC2B5645DD974EA5F1C4AFEE), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6060 = { sizeof(Mattone_t08BDE157A2A1443BAEB55C58A89EEE7AC7C85D01), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6061;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6061 = { sizeof(ChestController_tE108A8EC9D6FDCCA9D64EC33FA7E954D948E069A), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6061 = { sizeof(MinigiocoController_tBBAD663AF2B6356AE243C5103F003A5AD406A658), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6062;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6062 = { sizeof(GameManager_tF8B78E39FAB56607662FECD4F0CF04E42562403A), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6062 = { sizeof(PallinaController_tA7BFF79CBCE2F3104838B2E6D2E9F5872FCFAD79), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6063;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6063 = { sizeof(U3CWaitU3Ed__4_tC5E37778227C10BC29E3B2208955AD7ECD06FA6C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6063 = { sizeof(PortaManager_t799248737A6001FBF79EAEE034B453811CA18A61), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6064;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6064 = { sizeof(GameobjectDestroyer_t9985B863119EB57DD1AF331889316E5E749862F5), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6064 = { sizeof(PuzzleManager_t204955B93F73221B0778D3DDC7D3F1A9C6DF673D), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6065;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6065 = { sizeof(StoneController_t797552F4C8C17B54A080EF5B5DA96F9856299D64), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6065 = { sizeof(SparoFreccia_t6ACF4DE867596EA965AFD8A993E19186DB4620E3), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6066;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6066 = { sizeof(Torcia_t53EB26A76791A9DE566C65AF6FD17CB8AF3D70C8), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6066 = { sizeof(StoneController_t797552F4C8C17B54A080EF5B5DA96F9856299D64), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6067;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6067 = { sizeof(TorciaController_tB1CF9527C2180436911F8EBA23C3513A19F8457F), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6068;
