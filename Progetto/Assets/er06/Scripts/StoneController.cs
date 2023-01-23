@@ -8,6 +8,7 @@ namespace er06 {
         int counter = 0;
         [SerializeField] GameObject particleEffect;
         [SerializeField] GameObject fire;
+        [SerializeField] AudioSource tocco;
         bool dentroFuoco = false;
         // Start is called before the first frame update
 
@@ -31,6 +32,7 @@ namespace er06 {
 
         private void OnCollisionEnter(Collision collision)
         {
+            tocco.Play();
             if (collision.gameObject.CompareTag("Stone"))
             {
                 ContactPoint contact = collision.contacts[0];
